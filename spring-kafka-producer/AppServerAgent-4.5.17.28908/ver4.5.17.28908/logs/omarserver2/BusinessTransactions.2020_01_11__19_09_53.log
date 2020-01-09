@@ -1,0 +1,38 @@
+[Thread-0] 11 janv. 2020 19:09:53,499  INFO - Starting BT Logs at Sat Jan 11 19:09:53 CET 2020
+[Thread-0] 11 janv. 2020 19:09:53,505  INFO - ###########################################################
+[Thread-0] 11 janv. 2020 19:09:53,505  INFO - Using Java Agent Version [Server Agent #4.5.17.28908 v4.5.17 GA compatible with 4.4.1.0 r41e827f2c8ca897888acf19f7e2a68cca452ded1 pull-requests/2830]
+[Thread-0] 11 janv. 2020 19:09:53,505  INFO - Running IBM Java Agent [No]
+[main] 11 janv. 2020 19:10:10,621  INFO - BT [1] Name [KafkaSender] Type [POJO] Custom [false]
+[main] 11 janv. 2020 19:10:10,621  INFO - Discovery Stack 
+Thread Name:main
+ID:1
+Time:Sat Jan 11 19:10:10 CET 2020
+State:RUNNABLE
+Priority:5
+
+org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java)
+org.springframework.kafka.core.DefaultKafkaProducerFactory$CloseSafeProducer.send(DefaultKafkaProducerFactory.java:590)
+brave.kafka.clients.TracingProducer.send(TracingProducer.java:126)
+org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:404)
+org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:254)
+omar.mebarki.springkafka.SpringKafkaProducer.onReady(SpringKafkaProducer.java:47)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:305)
+org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:190)
+org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:153)
+org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+org.springframework.boot.context.event.EventPublishingRunListener.running(EventPublishingRunListener.java:103)
+org.springframework.boot.SpringApplicationRunListeners.running(SpringApplicationRunListeners.java:77)
+org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+omar.mebarki.springkafka.SpringKafkaProducer.main(SpringKafkaProducer.java:34)
+
+

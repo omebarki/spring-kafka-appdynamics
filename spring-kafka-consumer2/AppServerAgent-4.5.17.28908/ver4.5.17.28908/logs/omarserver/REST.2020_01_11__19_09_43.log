@@ -1,0 +1,225 @@
+[AD Thread-Metric Reporter1] 11 janv. 2020 19:10:04,461  INFO MetricSender - Sending REST request - URL [/controller/instance/8305/metricregistration]
+<request>
+<node-id>21515</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Reporting"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Freed-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Objects created"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Abandoned BCI operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Background Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class refreshes"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Validation Failures"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Methods Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Allocated-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|LiveData (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="NO_ZEROFILL_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class load misses"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Transformation Timeouts"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Non-Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Failed ReTransform Requests"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class Loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class loads"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Burnt (ms/min)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Threads|Current No. of Threads"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Background Transformations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Bootstrap class lookups"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow End to End Messages"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Non-Transform Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Class File Reads for MetaData"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Promoted-Objects (MB)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Metric Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|End to End Messages per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Number of Major Collections Per Min"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Current Loaded Class Count"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes Transformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Process CPU Usage %"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|Classes ReTransformed"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|BCI|Average Class File Read time(ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Average End to End Latency (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Memory:Heap|Used %"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|App Config Poll"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|BT Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="Agent|BCI|ClassMetaData Purge Operations"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Classes|Total Classes Loaded"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|Agent Registration"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter1] 11 janv. 2020 19:10:04,684  INFO MetricSender - REST Response Received - URL [/controller/instance/8305/metricregistration]
+<request>
+<metric	name="BTM|Application Summary|End to End Messages per Minute"	id="2512325"/>
+<metric	name="JVM|Garbage Collection|Major Collection Time Spent Per Min (ms)"	id="2512203"/>
+<metric	name="JVM|Memory:Heap|Committed (MB)"	id="2512204"/>
+<metric	name="Agent|Agent Channels|BT Registration"	id="2512290"/>
+<metric	name="Agent|BCI|Average Class File Read time(ms)"	id="2512295"/>
+<metric	name="BTM|Application Summary|Stall Count"	id="2512332"/>
+<metric	name="Agent|BCI|Bootstrap class loads"	id="2512302"/>
+<metric	name="BTM|Application Summary|Average Response Time (ms)"	id="2512316"/>
+<metric	name="Agent|BCI|Validation Failures"	id="2512314"/>
+<metric	name="Agent|BCI|Average Background Transform Time (ms)"	id="2512294"/>
+<metric	name="Agent|BCI|Abandoned BCI operations"	id="2512293"/>
+<metric	name="JVM|Garbage Collection|Number of Major Collections Per Min"	id="2512216"/>
+<metric	name="Agent|BCI|Average Transform Time (ms)"	id="2512299"/>
+<metric	name="Agent|Agent Channels|Agent Registration"	id="2512288"/>
+<metric	name="JVM|Garbage Collection|GC Time Spent Per Min (ms)"	id="2512223"/>
+<metric	name="JVM|Classes|Total Classes Loaded"	id="2512221"/>
+<metric	name="BTM|Application Summary|Errors per Minute"	id="2512326"/>
+<metric	name="Agent|BCI|Average Time to Create ClassMetaData (ms)"	id="2512298"/>
+<metric	name="Agent|Agent Channels|Metric Reporting"	id="2512292"/>
+<metric	name="BTM|Application Summary|Number of Slow Calls"	id="2512329"/>
+<metric	name="Agent|BCI|ClassMetaData Objects created"	id="2512307"/>
+<metric	name="JVM|Memory:Non-Heap|Committed (MB)"	id="2512206"/>
+<metric	name="Agent|BCI|Class Loads"	id="2512306"/>
+<metric	name="JVM|Garbage Collection|Allocated-Objects (MB)"	id="2512211"/>
+<metric	name="BTM|Application Summary|Normal Average Response Time (ms)"	id="2512328"/>
+<metric	name="JVM|Process CPU Burnt (ms/min)"	id="2512213"/>
+<metric	name="JVM|Memory:Heap|Used %"	id="2512214"/>
+<metric	name="Agent|BCI|Bootstrap class refreshes"	id="2512304"/>
+<metric	name="Agent|BCI|Class File Reads for MetaData"	id="2512305"/>
+<metric	name="JVM|Memory:Heap|Max Available (MB)"	id="2512218"/>
+<metric	name="Agent|BCI|Methods Transformed"	id="2512312"/>
+<metric	name="JVM|Threads|Current No. of Threads"	id="2512224"/>
+<metric	name="Agent|BCI|Bootstrap class load misses"	id="2512301"/>
+<metric	name="BTM|Application Summary|Infrastructure Errors per Minute"	id="2512327"/>
+<metric	name="JVM|Memory:Non-Heap|Current Usage (MB)"	id="2512205"/>
+<metric	name="Agent|BCI|Average Non-Transform Time (ms)"	id="2512297"/>
+<metric	name="Agent|Agent Channels|Metric Registration"	id="2512291"/>
+<metric	name="JVM|Garbage Collection|Freed-Objects (MB)"	id="2512208"/>
+<metric	name="Agent|BCI|Failed ReTransform Requests"	id="2512311"/>
+<metric	name="JVM|Garbage Collection|Minor Collection Time Spent Per Min (ms)"	id="2512210"/>
+<metric	name="BTM|Application Summary|Calls per Minute"	id="2512317"/>
+<metric	name="JVM|Classes|Current Loaded Class Count"	id="2512215"/>
+<metric	name="JVM|Garbage Collection|Number of Minor Collections Per Min"	id="2512217"/>
+<metric	name="Agent|Agent Channels|App Config Poll"	id="2512289"/>
+<metric	name="BTM|Application Summary|Number of Very Slow Calls"	id="2512331"/>
+<metric	name="Agent|BCI|Transformation Timeouts"	id="2512313"/>
+<metric	name="JVM|Garbage Collection|Promoted-Objects (MB)"	id="2512202"/>
+<metric	name="BTM|Application Summary|Average End to End Latency (ms)"	id="2512315"/>
+<metric	name="JVM|Garbage Collection|LiveData (MB)"	id="2512207"/>
+<metric	name="Agent|BCI|ClassMetaData Purge Operations"	id="2512308"/>
+<metric	name="BTM|Application Summary|Number of Slow End to End Messages"	id="2512330"/>
+<metric	name="JVM|Process CPU Usage %"	id="2512212"/>
+<metric	name="Agent|BCI|Classes Transformed"	id="2512310"/>
+<metric	name="Agent|BCI|Classes ReTransformed"	id="2512309"/>
+<metric	name="Agent|BCI|Average ClassMetaData Purge Operation Time (ms)"	id="2512296"/>
+<metric	name="Agent|BCI|Bootstrap class lookups"	id="2512303"/>
+<metric	name="JVM|Memory:Heap|Current Usage (MB)"	id="2512219"/>
+<metric	name="Agent|BCI|Background Transformations"	id="2512300"/>
+</request>
+
+[AD Thread-Metric Reporter0] 11 janv. 2020 19:11:04,457  INFO MetricSender - Sending REST request - URL [/controller/instance/8305/metricregistration]
+<request>
+<node-id>21515</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:19323|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:19323|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:19323|Number of Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Normal Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:19323|Stall Count"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:19323|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Number of Very Slow Calls"	time-rollup-type="SUM"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:Code Cache|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Current Usage (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Committed (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Max Available (MB)"	time-rollup-type="CURRENT"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:19323|Exit Call:Kafka|From:{[UNRESOLVED][3525]}|Calls per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="COLLECTIVE"	name="BTM|Application Summary|Component:19323|Infrastructure Errors per Minute"	time-rollup-type="AVERAGE"	hole-fill-type="RATE_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="BTM|Application Summary|Component:19323|Average Response Time (ms)"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 11 janv. 2020 19:11:04,681  INFO MetricSender - REST Response Received - URL [/controller/instance/8305/metricregistration]
+<request>
+<metric	name="BTM|Application Summary|Component:19323|Infrastructure Errors per Minute"	id="2512338"/>
+<metric	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Errors per Minute"	id="2519455"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Committed (MB)"	id="2512355"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Current Usage (MB)"	id="2512354"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Committed (MB)"	id="2512361"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Max Available (MB)"	id="2512360"/>
+<metric	name="BTM|Application Summary|Component:19323|Number of Very Slow Calls"	id="2512340"/>
+<metric	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Number of Slow Calls"	id="2519457"/>
+<metric	name="BTM|Application Summary|Component:19323|Average Response Time (ms)"	id="2512334"/>
+<metric	name="BTM|Application Summary|Component:19323|Errors per Minute"	id="2512336"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Metaspace|Committed (MB)"	id="2512353"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Committed (MB)"	id="2512350"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Current Usage (MB)"	id="2512359"/>
+<metric	name="BTM|Application Summary|Component:19323|Exit Call:Kafka|From:{[UNRESOLVED][3525]}|Calls per Minute"	id="2512337"/>
+<metric	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Normal Average Response Time (ms)"	id="2519456"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Old Gen|Committed (MB)"	id="2512358"/>
+<metric	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Number of Very Slow Calls"	id="2519458"/>
+<metric	name="BTM|Application Summary|Component:19323|Number of Slow Calls"	id="2512339"/>
+<metric	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Average Response Time (ms)"	id="2519453"/>
+<metric	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Calls per Minute"	id="2519454"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Code Cache|Max Available (MB)"	id="2512349"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Current Usage (MB)"	id="2512356"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Current Usage (MB)"	id="2512362"/>
+<metric	name="BTM|Application Summary|Component:19323|Stall Count"	id="2512341"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Code Cache|Current Usage (MB)"	id="2512348"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Code Cache|Committed (MB)"	id="2512347"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Eden Space|Max Available (MB)"	id="2512357"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Max Available (MB)"	id="2512352"/>
+<metric	name="BTM|Application Summary|Component:19323|Calls per Minute"	id="2512335"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:Compressed Class Space|Current Usage (MB)"	id="2512351"/>
+<metric	name="BTM|BTs|BT:32756|Component:19322|Exit Call:Kafka|To:{[UNRESOLVED][3525]}|Component:{[UNRESOLVED][3525]}|Exit Call:Kafka|To:19323|Component:19323|Stall Count"	id="2519459"/>
+<metric	name="JVM|Garbage Collection|Memory Pools:PS Survivor Space|Max Available (MB)"	id="2512363"/>
+</request>
+
+[AD Thread-Metric Reporter0] 11 janv. 2020 19:13:04,456  INFO MetricSender - Sending REST request - URL [/controller/instance/8305/metricregistration]
+<request>
+<node-id>21515</node-id>
+<agent-type>APP_AGENT</agent-type>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Max Records Lag"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Records Consumption Rate"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Bytes Consumption Rate"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Fetch Rate"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Max Fetch Latency"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<metric	cluster-rollup-type="INDIVIDUAL"	name="Agent|Agent Channels|RSD Upload"	time-rollup-type="AVERAGE"	hole-fill-type="REGULAR_COUNTER"/>
+<account-key>****</account-key>
+</request>
+
+[AD Thread-Metric Reporter0] 11 janv. 2020 19:13:04,663  INFO MetricSender - REST Response Received - URL [/controller/instance/8305/metricregistration]
+<request>
+<metric	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Records Consumption Rate"	id="2512378"/>
+<metric	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Bytes Consumption Rate"	id="2512374"/>
+<metric	name="Agent|Agent Channels|RSD Upload"	id="2512388"/>
+<metric	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Max Records Lag"	id="2512377"/>
+<metric	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Max Fetch Latency"	id="2512376"/>
+<metric	name="Server|Component:19323|JMX|ConsumerMetrics:consumer-1|Fetch Rate"	id="2512375"/>
+</request>
+

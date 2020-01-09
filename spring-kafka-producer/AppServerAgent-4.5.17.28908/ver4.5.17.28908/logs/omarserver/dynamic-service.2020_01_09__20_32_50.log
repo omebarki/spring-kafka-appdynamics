@@ -1,0 +1,6 @@
+[Thread-0] 09 janv. 2020 20:32:51,502  INFO com.singularity.dynamicservice.DynamicServiceManager - Scheduling DynamicServiceManager at interval of 30 seconds
+[AD Thread Pool-Global1] 09 janv. 2020 20:34:05,650  INFO com.singularity.dynamicservice.DynamicServiceManager - Using services directories [F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-producer\AppServerAgent-4.5.17.28908\ver4.5.17.28908\external-services, F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-producer\AppServerAgent-4.5.17.28908\ver4.5.17.28908\external-services\omarserver]
+[AD Thread Pool-Global1] 09 janv. 2020 20:34:05,650  INFO com.singularity.dynamicservice.DynamicServiceManager - Mbean registration failed or not ready
+[AD Thread Pool-Global1] 09 janv. 2020 20:35:21,505  INFO com.singularity.dynamicservice.DynamicServiceMBeanManager - MBean AppDynamics:type=DynamicServiceManager is registered
+[AD Thread Pool-Global1] 09 janv. 2020 20:35:21,507  INFO com.singularity.dynamicservice.DynamicServiceManager - Service class name com.singularity.ee.service.analytics.Analytics
+[AD Thread Pool-Global1] 09 janv. 2020 20:35:21,535  INFO com.singularity.dynamicservice.DynamicServiceManager - Service class name com.singularity.ee.service.netviz.service.NetVizSocketCollectorService

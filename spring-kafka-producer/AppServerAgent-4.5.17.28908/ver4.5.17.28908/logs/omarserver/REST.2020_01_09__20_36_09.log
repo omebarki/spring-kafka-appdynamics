@@ -1,0 +1,50 @@
+[AD Thread Pool-Global1] 09 janv. 2020 20:36:20,973  INFO AsyncCorrelationADDRepository - REST - Sending Binary request - URL [/controller/instance/8179/btregistration] 
+********BT Registration Data********
+<node-id>
+21194
+</node-id>
+<account-key>
+****
+</account-key>
+<application-diagnostic-data>
+Size : 1
+<ApplicationDiagnosticData{key='KafkaTemplate$$Lambda$523/1594214614', name=KafkaTemplate$$Lambda$523/1594214614, diagnosticType=THREAD_TASK, configEntities=null, summary='KafkaTemplate$$Lambda$523/1594214614'}>
+</application-diagnostic-data>
+
+[AD Thread Pool-Global1] 09 janv. 2020 20:36:20,975  INFO AsyncCorrelationADDRepository - REST
+Sending Binary payload Size : 1317 bytes
+[AD Thread Pool-Global1] 09 janv. 2020 20:36:21,094  INFO AsyncCorrelationADDRepository - REST - Reading Binary response - URL [null] - Size [1700]
+********BT Registration Data********
+<business-transactions>
+Size : 0
+</business-transactions>
+<invalid-backends>
+Size : 0
+</invalid-backends>
+<unregistered-transactions>
+Size : 0
+</unregistered-transactions>
+<resolved-backend-calls>
+Size : 1
+<3461>::<NodeResolutionInfo[exitPointType=CUSTOM, exitPointSubtype=Kafka, properties=[Name:Topic Name, Value:users, Name:Vendor, Value:Apache]]>
+</resolved-backend-calls>
+<STATUS>
+Success
+</STATUS>
+<registered-backends>
+Size : 0
+</registered-backends>
+<Status Message>
+No transactions sent by agent to register
+</Status Message>
+<invalid-business-transactions>
+Size : 0
+</invalid-business-transactions>
+<application-diagnostic-data>
+Size : 1
+<THREAD_TASK>::<{KafkaTemplate$$Lambda$523/1594214614=42801}>
+</application-diagnostic-data>
+<unregistered-backends>
+Size : 0
+</unregistered-backends>
+

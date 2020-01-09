@@ -1,0 +1,658 @@
+[Thread-0] 11 janv. 2020 19:15:27,195  INFO JavaAgent - Logging set up for log4j2
+[Thread-0] 11 janv. 2020 19:15:27,196  INFO JavaAgent - ####################################################################################
+[Thread-0] 11 janv. 2020 19:15:27,196  INFO JavaAgent - Java Agent Directory [F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908\ver4.5.17.28908]
+[Thread-0] 11 janv. 2020 19:15:27,196  INFO JavaAgent - Java Agent AppAgent directory [F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908\ver4.5.17.28908]
+[Thread-0] 11 janv. 2020 19:15:27,196  INFO JavaAgent - Using Java Agent Version [Server Agent #4.5.17.28908 v4.5.17 GA compatible with 4.4.1.0 r41e827f2c8ca897888acf19f7e2a68cca452ded1 pull-requests/2830]
+[Thread-0] 11 janv. 2020 19:15:27,196  INFO JavaAgent - All agent classes have been pre-loaded
+[Thread-0] 11 janv. 2020 19:15:27,201  INFO AgentKernel - Starting Java Agent at Sat Jan 11 19:15:27 CET 2020 ...
+[Thread-0] 11 janv. 2020 19:15:27,202  INFO AgentKernel - Time zone: Heure d'Europe centrale
+[Thread-0] 11 janv. 2020 19:15:27,226  INFO XMLConfigManager - Orchestration is disabled - disabling virtualization resolvers by default.
+[Thread-0] 11 janv. 2020 19:15:27,238  INFO XMLConfigManager - Default Host Identifier Resolver using host name for unique host identifier [omarserver]
+[Thread-0] 11 janv. 2020 19:15:27,509  INFO XMLConfigManager - Default IP Address Resolver found IP addresses [[192.168.171.1, fe80:0:0:0:c4d4:6310:19fc:452d%eth2, fe80:0:0:0:e425:a45c:e0e:c0a0%wlan0, fe80:0:0:0:587b:d76a:4722:1b22%eth3, fe80:0:0:0:f1ec:39cc:5f3f:7201%eth4, 192.168.160.1, fe80:0:0:0:3441:b55c:bb1e:3b59%eth5, 192.168.1.138, fe80:0:0:0:9ae:d47b:73ca:8fb4%wlan1, 192.168.99.1, fe80:0:0:0:8473:88ee:30bd:7c31%eth8, fe80:0:0:0:4ce7:4232:f857:df3d%wlan2, 169.254.20.44, fe80:0:0:0:1fd:c176:7be4:142c%eth11, 192.168.56.1, fe80:0:0:0:79cd:daf8:9b7:e2e8%eth12]]
+[Thread-0] 11 janv. 2020 19:15:27,509  INFO XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.applicationName] for application name [KafkaPoc]
+[Thread-0] 11 janv. 2020 19:15:27,509  INFO XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.tierName] for tier name [SpringKafkaConsumer]
+[Thread-0] 11 janv. 2020 19:15:27,509  INFO XMLConfigManager - Full Agent Registration Info Resolver found system property [appdynamics.agent.nodeName] for node name [omarserver]
+[Thread-0] 11 janv. 2020 19:15:27,512  INFO XMLConfigManager - Full Agent Registration Info Resolver using selfService [true]
+[Thread-0] 11 janv. 2020 19:15:27,515  INFO XMLConfigManager - Full Agent Registration Info Resolver using selfService [true]
+[Thread-0] 11 janv. 2020 19:15:27,515  INFO XMLConfigManager - Full Agent Registration Info Resolver using application name [KafkaPoc]
+[Thread-0] 11 janv. 2020 19:15:27,515  INFO XMLConfigManager - Full Agent Registration Info Resolver using tier name [SpringKafkaConsumer]
+[Thread-0] 11 janv. 2020 19:15:27,515  INFO XMLConfigManager - Full Agent Registration Info Resolver using node name [omarserver]
+[Thread-0] 11 janv. 2020 19:15:27,515  INFO SelfServiceNameResolver - Resolved app name is KafkaPoc
+[Thread-0] 11 janv. 2020 19:15:27,515  INFO SelfServiceNameResolver - Resolved tier name is SpringKafkaConsumer
+[Thread-0] 11 janv. 2020 19:15:27,516  INFO SelfServiceNameResolver - Resolved node name is omarserver. Deferred registration is false
+[Thread-0] 11 janv. 2020 19:15:27,519  INFO XMLConfigManager - XML Controller Info Resolver found controller host [cloud202001090538366.saas.appdynamics.com]
+[Thread-0] 11 janv. 2020 19:15:27,519  INFO XMLConfigManager - XML Controller Info Resolver found controller port [80]
+[Thread-0] 11 janv. 2020 19:15:27,522  INFO XMLConfigManager - XML Controller Info Resolver found controller host [cloud202001090538366.saas.appdynamics.com]
+[Thread-0] 11 janv. 2020 19:15:27,522  INFO XMLConfigManager - XML Controller Info Resolver found controller port [80]
+[Thread-0] 11 janv. 2020 19:15:27,526  INFO XMLConfigManager - XML Agent Account Info Resolver using account name [cloud202001090538366]
+[Thread-0] 11 janv. 2020 19:15:27,526  INFO XMLConfigManager - XML Agent Account Info Resolver using account access key [****]
+[Thread-0] 11 janv. 2020 19:15:27,526  INFO XMLConfigManager - Configuration Channel is using ControllerInfo:: host:[cloud202001090538366.saas.appdynamics.com] port:[80] sslEnabled:[false] keystoreFile:[DEFAULT:cacerts.jks] use-encrypted-credentials:[false] secureCredentialStoreFileName:[] secureCredentialStorePassword:[] use-ssl-client-auth:[false] asymmetricKeysStoreFilename:[] asymmetricKeysStorePassword:[] asymmetricKeyPassword:[] asymmetricKeyAlias:[] validation:[UNSPECIFIED]
+[Thread-0] 11 janv. 2020 19:15:27,707  INFO AgentConfigWatchdog - Agent overwrite set to false
+[Thread-0] 11 janv. 2020 19:15:27,709  INFO AgentConfigWatchdog - Parsed 3 filters from <sensitive-data-filters> section
+[Thread-0] 11 janv. 2020 19:15:27,709  INFO AgentConfigWatchdog - Parsed 0 filters from <sensitive-url-filters> section
+[Thread-0] 11 janv. 2020 19:15:27,709  INFO AgentConfigWatchdog - Parsed 0 filters from <sensitive-message-filters> section
+[Thread-0] 11 janv. 2020 19:15:27,710  INFO AgentConfigWatchdog - Service properties for TransactionMonitoringService = [{async-instrumentation-strategy=AgentConfigPropertyValue{value='constructor', origin=APP_AGENT_CONFIG, mutable=true}, config-file-path=AgentConfigPropertyValue{value='transactions.xml', origin=APP_AGENT_CONFIG, mutable=true}}]
+[Thread-0] 11 janv. 2020 19:15:27,710  INFO AgentConfigWatchdog - Service properties for JMXService = [{jmx-gc-majorCollectionBean=AgentConfigPropertyValue{value='', origin=APP_AGENT_CONFIG, mutable=true}, jmx-gc-minorCollectionBean=AgentConfigPropertyValue{value='', origin=APP_AGENT_CONFIG, mutable=true}, jmx-server-metrics-update-interval-in-seconds=AgentConfigPropertyValue{value='60', origin=APP_AGENT_CONFIG, mutable=true}}]
+[Thread-0] 11 janv. 2020 19:15:27,710  INFO AgentConfigWatchdog - Service properties for ObjectMonitoringService = [{enable-collection-monitoring=AgentConfigPropertyValue{value='false', origin=APP_AGENT_CONFIG, mutable=true}, minimum-age-for-evaluation-in-minutes=AgentConfigPropertyValue{value='30', origin=APP_AGENT_CONFIG, mutable=true}, enable-object-size-monitoring=AgentConfigPropertyValue{value='false', origin=APP_AGENT_CONFIG, mutable=true}, minimum-size-for-evaluation-in-mb=AgentConfigPropertyValue{value='5', origin=APP_AGENT_CONFIG, mutable=true}, disable-collection-capture=AgentConfigPropertyValue{value='false', origin=APP_AGENT_CONFIG, mutable=true}, enable-instance-monitoring=AgentConfigPropertyValue{value='false', origin=APP_AGENT_CONFIG, mutable=true}, collection-capture-period-in-minutes=AgentConfigPropertyValue{value='30', origin=APP_AGENT_CONFIG, mutable=true}}]
+[Thread-0] 11 janv. 2020 19:15:27,710  INFO AgentConfigWatchdog - Service properties for AgentDiagnosticsService = [{enable-thread-dump=AgentConfigPropertyValue{value='false', origin=APP_AGENT_CONFIG, mutable=true}, dump-all-threads=AgentConfigPropertyValue{value='true', origin=APP_AGENT_CONFIG, mutable=true}, thread-dump-logger=AgentConfigPropertyValue{value='log4j', origin=APP_AGENT_CONFIG, mutable=true}, enable-shutdown-hook=AgentConfigPropertyValue{value='false', origin=APP_AGENT_CONFIG, mutable=true}, thread-dump-interval=AgentConfigPropertyValue{value='300', origin=APP_AGENT_CONFIG, mutable=true}}]
+[Thread-0] 11 janv. 2020 19:15:27,710  INFO AgentConfigWatchdog - Service properties for InstrumentationSdkPluginManager = [{sdk-plugin-directory=AgentConfigPropertyValue{value='sdk-plugins', origin=APP_AGENT_CONFIG, mutable=true}}]
+[Thread-0] 11 janv. 2020 19:15:27,711  INFO AgentConfigWatchdog - Service properties for DynamicServiceManager = [{external-service-directory=AgentConfigPropertyValue{value='external-services', origin=APP_AGENT_CONFIG, mutable=true}}]
+[Thread-0] 11 janv. 2020 19:15:27,722  INFO XMLConfigManager - Node will not be marked as historical at shutdown
+[Thread-0] 11 janv. 2020 19:15:27,723  INFO AgentKernel - JVM Runtime: 
+	java.home=F:\dev_workspace\tools\jdk1.8.0_201\jre
+	java.vm.vendor=Oracle Corporation
+	java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+	java.version=1.8.0_201
+	java.specification.version=1.8
+	java.runtime.version=1.8.0_201-b09
+	java.io.tmpdir=C:\Users\omar\AppData\Local\Temp\
+	user.language=fr
+	user.country=FR
+	user.variant=
+	Default locale=fr_FR
+[Thread-0] 11 janv. 2020 19:15:27,723  INFO AgentKernel - OS Runtime: 
+	os.name=Windows 10
+	os.arch=amd64
+	os.version=10.0
+	user.name=omar
+	user.home=C:\Users\omar
+	user.dir=F:\dev_workspace\code_workspace\spring-kafka-appdynamics
+[Thread-0] 11 janv. 2020 19:15:27,723  INFO AgentKernel - JVM Args : -javaagent:spring-kafka-consumer/AppServerAgent-4.5.17.28908/javaagent.jar | -Dappagent.install.dir=F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908 | -Dappdynamics.agent.applicationName=KafkaPoc | -Dappdynamics.agent.tierName=SpringKafkaConsumer | -Dappdynamics.agent.nodeName=omarserver | -javaagent:F:\dev_workspace\ideaIC\lib\idea_rt.jar=50826:F:\dev_workspace\ideaIC\bin | -Dfile.encoding=UTF-8 | 
+[Thread-0] 11 janv. 2020 19:15:27,723  INFO AgentKernel - JVM Runtime Name: 3596@omarserver
+[Thread-0] 11 janv. 2020 19:15:27,723  INFO AgentKernel - JVM PID: 3596
+[Thread-0] 11 janv. 2020 19:15:27,724  INFO AgentKernel - No debugger attached
+[Thread-0] 11 janv. 2020 19:15:27,857  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-metrics-allowed] to method [public void com.singularity.ee.agent.appagent.kernel.controller.metrics.MetricGenerationServiceFactory.setMaxMetricsAllowed(int)] in class class com.singularity.ee.agent.appagent.kernel.controller.metrics.MetricGenerationServiceFactory 1
+[Thread-0] 11 janv. 2020 19:15:27,858  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-metric-queue-length] to method [public void com.singularity.ee.agent.appagent.kernel.controller.metrics.MetricGenerationServiceFactory.setMetricPublishQueueLength(int)] in class class com.singularity.ee.agent.appagent.kernel.controller.metrics.MetricGenerationServiceFactory 1
+[Thread-0] 11 janv. 2020 19:15:27,858  INFO MetricHandler - Initialized with maximum number of metrics allowed of 5000
+[Thread-0] 11 janv. 2020 19:15:27,861  INFO MetricHandler - Initialized with maxPublishQueueLength [2], aggregationFrequencyInMillis [60000]
+[Thread-0] 11 janv. 2020 19:15:27,861  INFO MetricHandler - Metric Service is : [enabled].
+[Thread-0] 11 janv. 2020 19:15:27,863  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-kafka-consumer] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.kafka.KafkaConfiguration.setConsumerEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.kafka.KafkaConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,863  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-vertx-http] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.vertx.http.VertxHttpConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.vertx.http.VertxHttpConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,864  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-vertx-message-entry] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.vertx.message.VertxMessageEntryConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.vertx.message.VertxMessageEntryConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,864  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-transformation-per-interceptor] to method [public void com.singularity.ee.agent.appagent.services.bciengine.spi.TransformationLimiterConfig.setMaxTransformationPerInterceptor(int)] in class class com.singularity.ee.agent.appagent.services.bciengine.spi.TransformationLimiterConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,870  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-appserver-mbean-finder-delay-in-seconds] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setJmxServerMBeanFinderDelayInSeconds(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,870  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-jvm-metrics-update-interval-in-seconds] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setJmxJVMMetricsUpdateIntervalInSeconds(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,870  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-metric-threshold-percentatge] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setThresholdPercentatgeForMisspelledKey(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,870  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-exclude-objectnames-with-wildcards] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setExcludeObjectNamesWithWildcards(boolean)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,870  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-jvm-metrics-update-interval-in-seconds] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setJmxServerMetricsUpdateIntervalInSeconds(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 2
+[Thread-0] 11 janv. 2020 19:15:27,870  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-data-collection] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setJmxDataEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,870  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-memory-metric-retry-count] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setJmxMemoryMetricRetryCount(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,870  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-metric-threshold-percentage] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setThresholdPercentatge(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,871  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-appserver] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setJmxAppserverEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,871  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-max-metrics-to-report] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setMaxJMXMetricToReport(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,871  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-appserver-mbean-finder-retries] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setJmxServerMBeanFinderRetries(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,871  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-agent-resource-tracker] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setAgentResourceEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,871  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-jmx-metric-timer] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig.setEnableTimer(boolean)] in class class com.singularity.ee.agent.appagent.services.jmxservice.JMXServiceConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,879  INFO AnnotationPropertyListenerManager - Registered NodeProperty [should-inline-interceptors] to method [public void com.singularity.ee.agent.appagent.services.bciengine.inline.template.InlineRetransformationHelper.setShouldInline(boolean)] in class class com.singularity.ee.agent.appagent.services.bciengine.inline.template.InlineRetransformationHelper 1
+[Thread-0] 11 janv. 2020 19:15:27,880  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-mule-message-interceptor] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.esb.mule.correlation.MuleMessageGUIDConfiguration.setMuleMessageGUIDInterceptorEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.esb.mule.correlation.MuleMessageGUIDConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,880  INFO AnnotationPropertyListenerManager - Registered NodeProperty [spring-mvc-naming-scheme] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.spring.mvc.SpringMVCNamingConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.spring.mvc.SpringMVCNamingConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,882  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-akka-metrics] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.scala.akka.AkkaConfiguration.setEnableMetrics(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.scala.akka.AkkaConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,882  INFO AnnotationPropertyListenerManager - Registered NodeProperty [turbo-bypass-hotspot-clock] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.exitpoint.TurboExitPropertyListener.setMaxTransformationPerInterceptor(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.exitpoint.TurboExitPropertyListener 1
+[Thread-0] 11 janv. 2020 19:15:27,883  INFO AnnotationPropertyListenerManager - Registered NodeProperty [disable-ibmbpm-usertask-bt-naming] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.ibmbpm.rest.IbmBpmUserTaskBTNamingConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.ibmbpm.rest.IbmBpmUserTaskBTNamingConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,884  INFO AnnotationPropertyListenerManager - Registered NodeProperty [ibmbpm-systemtask-bt-naming] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.ibmbpm.pojo.IbmBpmSystemTaskBTNamingConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.ibmbpm.pojo.IbmBpmSystemTaskBTNamingConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,884  INFO IbmBpmSystemTaskBTNamingConfiguration - IBM-BPM SystemTask BT Naming scheme has been set to default.
+[Thread-0] 11 janv. 2020 19:15:27,885  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-axon-entry] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.axon.AxonConfiguration.setAxonEntryEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.axon.AxonConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,885  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-axon-exit] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.axon.AxonConfiguration.setAxonExitEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.axon.AxonConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,886  INFO AnnotationPropertyListenerManager - Registered NodeProperty [disable-ibmbpm-data-collectors] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.ibmbpm.IbmBpmDataCollectorConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.ibmbpm.IbmBpmDataCollectorConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,887  INFO AnnotationPropertyListenerManager - Registered NodeProperty [disable-ibmbpm-usertask-bt-in-process-correlation] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.ibmbpm.rest.IbmBpmUserTaskBTInProcessCorrelationConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.ibmbpm.rest.IbmBpmUserTaskBTInProcessCorrelationConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,887  INFO AnnotationPropertyListenerManager - Registered NodeProperty [skip-jms-listener-for-bt-naming] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jms.message.JMSMessageConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jms.message.JMSMessageConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,888  INFO AnnotationPropertyListenerManager - Registered NodeProperty [osb-ignore-exit-types] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.esb.osb.OSBGenericExitConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.esb.osb.OSBGenericExitConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,890  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-cache-refresh-time] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.appserver.common.JMXAttributeDefinitionCacheConfig.setCacheTimeoutInMinutes(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.appserver.common.JMXAttributeDefinitionCacheConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,893  INFO MemoryUsageGenerator - Identified minor collection bean :PS Scavenge
+[Thread-0] 11 janv. 2020 19:15:27,893  INFO MemoryUsageGenerator - Identified major collection bean :PS MarkSweep
+[Thread-0] 11 janv. 2020 19:15:27,895  INFO AnnotationPropertyListenerManager - Registered NodeProperty [deserialization-whitelist-update-enabled] to method [public void com.singularity.ee.agent.util.serialize.DeserializationWhitelistListener.setDeserializationWhitelistUpdateEnabled(boolean)] in class class com.singularity.ee.agent.util.serialize.DeserializationWhitelistListener 1
+[Thread-0] 11 janv. 2020 19:15:27,895  INFO LifeCycleManager - Starting service [JMXService]
+[Thread-0] 11 janv. 2020 19:15:27,900  INFO AnnotationPropertyListenerManager - Registered NodeProperty [jmx-operation-timeout-in-milliseconds] to method [public void com.singularity.ee.agent.appagent.services.jmxservice.transientoperations.JMXTransientOperationsHandler.setJMXOperationTimeoutProperty(int)] in class class com.singularity.ee.agent.appagent.services.jmxservice.transientoperations.JMXTransientOperationsHandler 1
+[Thread-0] 11 janv. 2020 19:15:27,909  INFO JMXService - ###### Using config from controller for JMX operations #########
+[Thread-0] 11 janv. 2020 19:15:27,911  INFO MemoryUsageGenerator - Identified minor collection bean :PS Scavenge
+[Thread-0] 11 janv. 2020 19:15:27,911  INFO MemoryUsageGenerator - Identified major collection bean :PS MarkSweep
+[Thread-0] 11 janv. 2020 19:15:27,911  INFO MemoryMetricGenerator - Initialized Minor Collection GC metrics
+[Thread-0] 11 janv. 2020 19:15:27,911  INFO MemoryMetricGenerator - Initialized Major Collection GC metrics
+[Thread-0] 11 janv. 2020 19:15:27,911  INFO MemoryMetricGenerator - Initialized Overall GC metrics
+[Thread-0] 11 janv. 2020 19:15:27,912  INFO MemoryMetricGenerator - Initialized Memory Pool MX Beans, Code Cache, Metaspace, Compressed Class Space, PS Eden Space, PS Survivor Space, PS Old Gen
+[Thread-0] 11 janv. 2020 19:15:27,913  INFO JVMMetricReporter - Number of processors 16
+[Thread-0] 11 janv. 2020 19:15:27,913  INFO JMXService - JVM JMX Metric collection initialized with update interval [60] seconds
+[Thread-0] 11 janv. 2020 19:15:27,914  INFO LifeCycleManager - Started service [JMXService]
+[Thread-0] 11 janv. 2020 19:15:27,914  INFO LifeCycleManager - Starting service [LogParserService]
+[Thread-0] 11 janv. 2020 19:15:27,914  INFO LifeCycleManager -  Service instantiated reflectively LogParserService :classcom.singularity.ee.agent.appagent.services.LogEventService
+[Thread-0] 11 janv. 2020 19:15:27,915  INFO LifeCycleManager - Started service [LogParserService]
+[Thread-0] 11 janv. 2020 19:15:27,916  INFO LifeCycleManager - Starting service [Agent17Service]
+[Thread-0] 11 janv. 2020 19:15:27,916  INFO LifeCycleManager -  Service instantiated reflectively Agent17Service :classcom.singularity.ee.agent.appagent.services.java17.Java17AgentService
+[Thread-0] 11 janv. 2020 19:15:27,916  INFO LifeCycleManager - Started service [Agent17Service]
+[Thread-0] 11 janv. 2020 19:15:27,916  INFO LifeCycleManager - Starting service [DynamicServiceManager]
+[Thread-0] 11 janv. 2020 19:15:27,918  INFO LifeCycleManager - Started service [DynamicServiceManager]
+[Thread-0] 11 janv. 2020 19:15:27,918  INFO LifeCycleManager - Starting service [BCIEngine]
+[Thread-0] 11 janv. 2020 19:15:27,918  INFO ADeferredClassRetransformer - Preference to retransform classes = true
+[Thread-0] 11 janv. 2020 19:15:27,918  INFO InstrumentationHandler - Registering class file transformer com.singularity.ee.agent.appagent.services.bciengine.asm.ByteCodeTransformer
+[Thread-0] 11 janv. 2020 19:15:27,919  INFO ClassTransformation - Class retransformation supported in current JVM version
+[Thread-0] 11 janv. 2020 19:15:27,931  INFO BCIEngineService - BCI Early Rule Appliers are bypassed because retransformation is supported
+[Thread-0] 11 janv. 2020 19:15:27,931  INFO LifeCycleManager - Started service [BCIEngine]
+[Thread-0] 11 janv. 2020 19:15:27,931  INFO LifeCycleManager - Starting service [SnapshotService]
+[Thread-0] 11 janv. 2020 19:15:27,940  INFO AnnotationPropertyListenerManager - Registered NodeProperty [generated-class-patterns] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker.resetConfig(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker 1
+[Thread-0] 11 janv. 2020 19:15:27,940  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-generated-class-patterns] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker.enableDefault(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.error.GeneratedClassChecker 1
+[Thread-0] 11 janv. 2020 19:15:27,943  INFO LoggerMessageProcessor - LoggerMessageProcessor is scheduled to run: com.singularity.ee.util.javaspecific.scheduler.AgentScheduledFutureImpl@7ef0b0b5
+[Thread-0] 11 janv. 2020 19:15:27,945  INFO AgentErrorProcessor - AgentErrorProcessor is scheduled to run: com.singularity.ee.util.javaspecific.scheduler.AgentScheduledFutureImpl@26def512
+[Thread-0] 11 janv. 2020 19:15:27,948  INFO ErrorRegistry - Error Registry initialized
+[Thread-0] 11 janv. 2020 19:15:27,957  INFO AnnotationPropertyListenerManager - Registered NodeProperty [dev-mode] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.DevModeConfig.setDevModeSetFromNodeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.DevModeConfig 1
+[Thread-0] 11 janv. 2020 19:15:27,959  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-batch-sqls-per-snapshot] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration.setMaxSqlStatementsToCaptureInBatch(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,959  INFO AnnotationPropertyListenerManager - Registered NodeProperty [normalize-prepared-statements] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration.setNormalizePreparedStatements(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,959  INFO AnnotationPropertyListenerManager - Registered NodeProperty [oracle-clientid-index] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration.setOracleClientIndex(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,959  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-length-batch-sql] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration.setMaxSqlStringLengthForBatch(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.JDBCConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:27,960  INFO AnnotationPropertyListenerManager - Registered NodeProperty [min-duration-for-jdbc-call-in-ms] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.topk.TopBackendsProcessor.setMinDurationForJDBCCallSample(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.topk.TopBackendsProcessor 1
+[Thread-0] 11 janv. 2020 19:15:27,960  INFO AnnotationPropertyListenerManager - Registered NodeProperty [min-duration-for-exit-call-save-in-ms] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.topk.TopBackendsProcessor.setMinDurationForExitCallSave(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.topk.TopBackendsProcessor 1
+[Thread-0] 11 janv. 2020 19:15:27,960  INFO TopBackendsProcessor - Started TopBackendsProcessor to process every [100] ms
+[Thread-0] 11 janv. 2020 19:15:27,960  INFO TopBackendsProcessor - Started TopBackendsReporter to report every [5] mins
+[Thread-0] 11 janv. 2020 19:15:27,968  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-discovered-backends] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.exitcall.ExitCallRegistry.setMaxBackend(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.exitcall.ExitCallRegistry 1
+[Thread-0] 11 janv. 2020 19:15:27,968  INFO AnnotationPropertyListenerManager - Registered NodeProperty [group-unmonitoried-backends] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.exitcall.ExitCallRegistry.setGroupUnmonitoredBackends(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.exitcall.ExitCallRegistry 1
+[Thread-0] 11 janv. 2020 19:15:27,972  INFO AnnotationPropertyListenerManager - Registered NodeProperty [slow-request-deviation] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.metrics.BTThresholdCalculator.updateSlowDelta(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.metrics.BTThresholdCalculator 1
+[Thread-0] 11 janv. 2020 19:15:27,974  INFO AnnotationPropertyListenerManager - Registered NodeProperty [disable-percentile-metrics] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry.setDisablePercentileMetrics(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry 1
+[Thread-0] 11 janv. 2020 19:15:27,974  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-business-transactions] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry.setMaxTransactions(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry 1
+[Thread-0] 11 janv. 2020 19:15:27,975  INFO AnnotationPropertyListenerManager - Registered NodeProperty [bt-registration-interval-in-seconds] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry.setBtRegistrationInterval(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry 1
+[Thread-0] 11 janv. 2020 19:15:27,975  INFO AnnotationPropertyListenerManager - Registered NodeProperty [percentile-method-option] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry.setPercentileMethod(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry 1
+[Thread-0] 11 janv. 2020 19:15:27,975  INFO AnnotationPropertyListenerManager - Registered NodeProperty [bt-registration-delayed-interval-in-seconds] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry.setBtRegistrationDelayedInterval(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.BusinessTransactionRegistry 1
+[Thread-0] 11 janv. 2020 19:15:27,977  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-snapshot-reporter-queue-size-kb] to method [public void com.singularity.ee.agent.appagent.services.snapshot.rsd.RequestSegmentDataQueue.setMaxSnapshotReporterQueueSizeInKB(int)] in class class com.singularity.ee.agent.appagent.services.snapshot.rsd.RequestSegmentDataQueue 1
+[Thread-0] 11 janv. 2020 19:15:27,978  INFO RequestSegmentDataReporter - Request Segment Data reporter setup to report at interval [10000]
+[Thread-0] 11 janv. 2020 19:15:28,002  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-tomcat-catalina-search-depth] to method [public void com.singularity.ee.agent.util.version.determiner.TomcatVersionDeterminer.setTomcatCatalinaSearchDepth(int)] in class class com.singularity.ee.agent.util.version.determiner.TomcatVersionDeterminer 1
+[Thread-0] 11 janv. 2020 19:15:28,002  INFO AnnotationPropertyListenerManager - Registered NodeProperty [disable-service-monitoring-metrics] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.metrics.CrossAppMetricPropertyListener.setServiceMonitoringMetricsDisabled(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.metrics.CrossAppMetricPropertyListener 1
+[Thread-0] 11 janv. 2020 19:15:28,004  INFO ServiceEndPointADDRegistrar - Starting ADD Registrar with registration period [10] secs
+[Thread-0] 11 janv. 2020 19:15:28,005  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-service-end-points-per-async-type] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry.setMaxServiceEndpointPerAsyncType(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry 1
+[Thread-0] 11 janv. 2020 19:15:28,005  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-service-end-points-per-entry-point-type] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry.setMaxServiceEndpointPerEntryPointType(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry 1
+[Thread-0] 11 janv. 2020 19:15:28,005  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-service-end-points-per-node] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry.setMaxServiceEndPointsPerNode(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry 1
+[Thread-0] 11 janv. 2020 19:15:28,005  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-service-end-points-per-thread] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry.setMaxServiceEndPointsPerThread(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry 1
+[Thread-0] 11 janv. 2020 19:15:28,005  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-async-service-endpoints] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry.setAsyncServiceEndpointEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.serviceendpoints.ServiceEndpointRegistry 1
+[Thread-0] 11 janv. 2020 19:15:28,007  INFO AnnotationPropertyListenerManager - Registered NodeProperty [coalesced-cg-generation] to method [public void com.singularity.ee.agent.appagent.services.snapshot.policy.SnapshotPolicyHandler.setCoalescedCallStackSampling(boolean)] in class class com.singularity.ee.agent.appagent.services.snapshot.policy.SnapshotPolicyHandler 1
+[Thread-0] 11 janv. 2020 19:15:28,008  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-callgraph-consolidation] to method [public void com.singularity.ee.agent.appagent.services.snapshot.policy.SnapshotPolicyHandler.setCallgraphConsolidationEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.snapshot.policy.SnapshotPolicyHandler 1
+[Thread-0] 11 janv. 2020 19:15:28,008  INFO AnnotationPropertyListenerManager - Registered NodeProperty [minimum-segment-time] to method [public void com.singularity.ee.agent.appagent.services.snapshot.policy.SnapshotPolicyHandler.setMinimumSegmentTime(int)] in class class com.singularity.ee.agent.appagent.services.snapshot.policy.SnapshotPolicyHandler 1
+[Thread-0] 11 janv. 2020 19:15:28,009  INFO SqlCacheHolder - Starting with global and thread-local SQL data caching strategy
+[Thread-0] 11 janv. 2020 19:15:28,011  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-prepared-statement-cache-size] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.cache.SqlCacheHolder.setMaxPreparedStatementGlobalCacheSize(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.cache.SqlCacheHolder 1
+[Thread-0] 11 janv. 2020 19:15:28,011  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-jdbc-calls-per-snapshot] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.cache.SqlCacheHolder.setMaxJDBCCallsPerSnapshot(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.cache.SqlCacheHolder 1
+[Thread-0] 11 janv. 2020 19:15:28,011  INFO AnnotationPropertyListenerManager - Registered NodeProperty [common-sql-cache] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.cache.SqlCacheHolder.setCommonSQLCache(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.jdbc.cache.SqlCacheHolder 1
+[Thread-0] 11 janv. 2020 19:15:28,014  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-jdbc-calls-per-snapshot] to method [public void com.singularity.ee.agent.appagent.services.snapshot.TransactionSnapshotService.setMaxJDBCCallsPerSnapshot(int)] in class class com.singularity.ee.agent.appagent.services.snapshot.TransactionSnapshotService 2
+[Thread-0] 11 janv. 2020 19:15:28,015  INFO AnnotationPropertyListenerManager - Registered NodeProperty [min-duration-for-exit-call-save-in-ms] to method [public void com.singularity.ee.agent.appagent.services.snapshot.TransactionSnapshotService.setMinDurationForExitCallSave(int)] in class class com.singularity.ee.agent.appagent.services.snapshot.TransactionSnapshotService 2
+[Thread-0] 11 janv. 2020 19:15:28,015  INFO JDBCConfiguration - Setting normalizePreparedStatements to true
+[Thread-0] 11 janv. 2020 19:15:28,015  INFO CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -null
+[Thread-0] 11 janv. 2020 19:15:28,015  INFO CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -null
+[Thread-0] 11 janv. 2020 19:15:28,015  INFO CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+[Thread-0] 11 janv. 2020 19:15:28,015  INFO CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -null
+[Thread-0] 11 janv. 2020 19:15:28,015  INFO CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+[Thread-0] 11 janv. 2020 19:15:28,016  INFO ApplicationStartupPolicy - Startup policy false
+[Thread-0] 11 janv. 2020 19:15:28,017  INFO AnnotationPropertyListenerManager - Registered NodeProperty [seconds-duration-startup-snapshots] to method [public void com.singularity.ee.agent.appagent.services.snapshot.policy.ApplicationStartupPolicy.setSecondsDurationStartupSnapshots(int)] in class class com.singularity.ee.agent.appagent.services.snapshot.policy.ApplicationStartupPolicy 1
+[Thread-0] 11 janv. 2020 19:15:28,021  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-concurrent-diagnostic-sessions] to method [public void com.singularity.ee.agent.appagent.services.snapshot.sla.DiagnosticSessionSnapshotPolicy.setMaxConcurrentDiagnosticSessions(int)] in class class com.singularity.ee.agent.appagent.services.snapshot.sla.DiagnosticSessionSnapshotPolicy 1
+[Thread-0] 11 janv. 2020 19:15:28,021  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-policy-snapshots] to method [public void com.singularity.ee.agent.appagent.services.snapshot.sla.DiagnosticSessionSnapshotPolicy.setEnablePolicySnapshots(boolean)] in class class com.singularity.ee.agent.appagent.services.snapshot.sla.DiagnosticSessionSnapshotPolicy 1
+[Thread-0] 11 janv. 2020 19:15:28,021  INFO AnnotationPropertyListenerManager - Registered NodeProperty [min-load-per-minute-diagnostic-session-trigger] to method [public void com.singularity.ee.agent.appagent.services.snapshot.sla.DiagnosticSessionSnapshotPolicy.setMinLoadTriggerDiagSess(int)] in class class com.singularity.ee.agent.appagent.services.snapshot.sla.DiagnosticSessionSnapshotPolicy 1
+[Thread-0] 11 janv. 2020 19:15:28,025  INFO TransactionSnapshotService - Agent object monitoring is disabled
+[Thread-0] 11 janv. 2020 19:15:28,025  INFO TransactionSnapshotService - CallStackSampler TryLock bounds in Micro Sec: 500
+[Thread-0] 11 janv. 2020 19:15:28,026  INFO TransactionSnapshotService - Enable-Contention-Tracking property set to: true
+[Thread-0] 11 janv. 2020 19:15:28,028  INFO LifeCycleManager - Started service [SnapshotService]
+[Thread-0] 11 janv. 2020 19:15:28,028  INFO LifeCycleManager - Starting service [TransactionMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,046  INFO AsyncCorrelationADDRepository - Started ADD registration thread to run every [10] seconds
+[Thread-0] 11 janv. 2020 19:15:28,046  INFO AsyncCorrelationADDRepository - Max ADD registrations allowed [500]
+[Thread-0] 11 janv. 2020 19:15:28,047  INFO AsyncCorrelationADDRepository - Reporting ADD registration failures every [5] minutes
+[Thread-0] 11 janv. 2020 19:15:28,053  INFO AnnotationPropertyListenerManager - Registered NodeProperty [create-bt-on-cross-app-no-tx-detect] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.DisablingHeaderReader.setEnabledHeaderWithDetails(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.DisablingHeaderReader 1
+[Thread-0] 11 janv. 2020 19:15:28,091  INFO AnnotationPropertyListenerManager - Registered NodeProperty [socket-enabled] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.network.NetVizSocketConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.network.NetVizSocketConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:28,094  INFO AnnotationPropertyListenerManager - Registered NodeProperty [local-socket-enabled] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.network.JavaAgentSocketConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.network.JavaAgentSocketConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:28,112  INFO AnnotationPropertyListenerManager - Registered NodeProperty [tx-disabling-header-details-enabled] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.exitcall.DisablingHeaderGenerator.setEnabledHeaderWithDetails(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.exitcall.DisablingHeaderGenerator 1
+[Thread-0] 11 janv. 2020 19:15:28,114  INFO EJBRuleApplier - TMS.Configure >> [maxEJBTransformedClasses] to 500
+[Thread-0] 11 janv. 2020 19:15:28,114  INFO EJBRuleApplier - TMS.Configure >> [maxEJBTransformedClassesByPackage] to 200
+[Thread-0] 11 janv. 2020 19:15:28,115  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-discovered-backends] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.exitcall.BackendDataCache.setMaxBackend(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.exitcall.BackendDataCache 2
+[Thread-0] 11 janv. 2020 19:15:28,133  INFO AnnotationPropertyListenerManager - Registered NodeProperty [min-transaction-stall-threshold-in-seconds] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.segment.SegmentManager.setNewMinStallThreshold(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.segment.SegmentManager 1
+[Thread-0] 11 janv. 2020 19:15:28,142  INFO AnnotationPropertyListenerManager - Registered NodeProperty [disable-agent-api] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.api.AgentApiConfiguration.setDisableAgentApi(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.api.AgentApiConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:28,183  INFO SlowAndStallRequestMonitor - Stall Request checker setup
+[Thread-0] 11 janv. 2020 19:15:28,183  INFO SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 300 ms, at interval 300 ms.
+[Thread-0] 11 janv. 2020 19:15:28,184  INFO DeadlockDetector - Deadlock Detector is scheduled to run every [300] seconds.
+[Thread-0] 11 janv. 2020 19:15:28,188  INFO JavaAgentThreadMXBeanWrapper - BT CPU Monitoring will stay enabled. Time taken to calculate Thread CPU Time for [1000] iterations is [1 ms] which is within the allowed budget of [10 ms]
+[Thread-0] 11 janv. 2020 19:15:28,191  INFO AsyncInstrumentationStrategyManager - Setting [async-instrumentation-strategy] to constructor
+[Thread-0] 11 janv. 2020 19:15:28,191  INFO AnnotationPropertyListenerManager - Registered NodeProperty [async-instrumentation-strategy] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.AsyncInstrumentationStrategyManager.setNewStrategyValue(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.AsyncInstrumentationStrategyManager 1
+[Thread-0] 11 janv. 2020 19:15:28,195  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-backend-response-decoration] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor.setEnableBackendResponseDecoration(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor 1
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-bt-block-wait-time-monitoring] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor.setEnableBtBlockWaitTimeMonitoring(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor 1
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-all-rsd-error-propagation] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor.setEnableAsyncRSDErrorProp(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.TransactionMonitor 1
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> setting [use-new-async-correlation] to true
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [use-flat-thread-chain-model] to true
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [bSyncMetricAggregator] to true
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [asyncAllMetrics] to null
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [useNewEJB3NamingRule] to false
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [disableSocketCollection] to false
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [devModeSuspendCPM] to 500
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [jdbcLRUCacheSize] to 50
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [support-cross-app-correlation] to true
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> [support-federated-app-correlation] to true
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.CHECK_BT_EXCLUDES_EARLY+"] to false
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.disableInfoProviderMBean+"] to false
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.infoProviderDetailMode+"] to false
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.maxETELatencyTimestampRetentionInSeconds+"] to 300
+[Thread-0] 11 janv. 2020 19:15:28,196  INFO TransactionMonitoringService - TMS.Configure >> ["+TransactionMonitorProperty.eteLatencyTimestampScanRetentionIntervalInSeconds+"] to 60
+[Thread-0] 11 janv. 2020 19:15:28,197  WARN AgentConfigWatchdog - Duplicate node property registration: [max-service-end-points-per-thread] already registered in node property but still want to registered in service [TransactionMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,197  WARN AgentConfigWatchdog - Duplicate node property registration: [max-service-end-points-per-node] already registered in node property but still want to registered in service [TransactionMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,197  WARN AgentConfigWatchdog - Duplicate node property registration: [max-service-end-points-per-entry-point-type] already registered in node property but still want to registered in service [TransactionMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,197  WARN AgentConfigWatchdog - Duplicate node property registration: [enable-async-service-endpoints] already registered in node property but still want to registered in service [TransactionMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,197  WARN AgentConfigWatchdog - Duplicate node property registration: [max-service-end-points-per-async-type] already registered in node property but still want to registered in service [TransactionMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,205  INFO JaxRsConfiguration - Property async-instrumentation-strategy, Value constructor
+[Thread-0] 11 janv. 2020 19:15:28,205  INFO JaxRsConfiguration - Property config-file-path, Value transactions.xml
+[Thread-0] 11 janv. 2020 19:15:28,206  INFO JDBCConfiguration - Applying property async-instrumentation-strategy, val constructor
+[Thread-0] 11 janv. 2020 19:15:28,206  INFO JDBCConfiguration - Applying property config-file-path, val transactions.xml
+[Thread-0] 11 janv. 2020 19:15:28,441  INFO NetVizSocketRuleApplier - NetViz Socket stats collection BCI rules defined
+[Thread-0] 11 janv. 2020 19:15:28,441  INFO NetVizSocketConfiguration - BCI for Socket stats collection is enabled
+[Thread-0] 11 janv. 2020 19:15:28,441  INFO JavaAgentSocketConfiguration - BCI for Socket stats collection is disabled
+[Thread-0] 11 janv. 2020 19:15:28,467  INFO AsyncExitADDRegistrar - Starting ADD Registrar with registration period [10] secs
+[Thread-0] 11 janv. 2020 19:15:28,472  INFO LifeCycleManager - Started service [TransactionMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,472  INFO LifeCycleManager - Starting service [AgentResourceMonitor]
+[Thread-0] 11 janv. 2020 19:15:28,473  INFO HeapShortageMonitor - HeapStorageMonitor is now active
+[Thread-0] 11 janv. 2020 19:15:28,473  INFO LifeCycleManager - Started service [AgentResourceMonitor]
+[Thread-0] 11 janv. 2020 19:15:28,473  INFO LifeCycleManager - Starting service [ObjectMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,502  INFO ObjectMonitoringService - ObjectMonitoringService property enable-collection-monitoring changed to false
+[Thread-0] 11 janv. 2020 19:15:28,502  INFO ObjectMonitoringService - ObjectMonitoringService property minimum-age-for-evaluation-in-minutes changed to 30
+[Thread-0] 11 janv. 2020 19:15:28,502  INFO ObjectMonitoringService - ObjectMonitoringService property enable-object-size-monitoring changed to false
+[Thread-0] 11 janv. 2020 19:15:28,508  INFO ObjectMonitoringService - ObjectMonitoringService property minimum-size-for-evaluation-in-mb changed to 5
+[Thread-0] 11 janv. 2020 19:15:28,508  INFO ObjectMonitoringService - ObjectMonitoringService property disable-collection-capture changed to false
+[Thread-0] 11 janv. 2020 19:15:28,508  INFO ObjectMonitoringService - ObjectMonitoringService property enable-instance-monitoring changed to false
+[Thread-0] 11 janv. 2020 19:15:28,508  INFO ObjectMonitoringService - ObjectMonitoringService property collection-capture-period-in-minutes changed to 30
+[Thread-0] 11 janv. 2020 19:15:28,508  INFO LifeCycleManager - Started service [ObjectMonitoringService]
+[Thread-0] 11 janv. 2020 19:15:28,508  INFO LifeCycleManager - Starting service [AgentDiagnosticsService]
+[Thread-0] 11 janv. 2020 19:15:28,509  INFO LifeCycleManager -  Service instantiated reflectively AgentDiagnosticsService :classcom.singularity.ee.agent.appagent.services.agentdiagnostics.AgentDiagnosticsService
+[Thread-0] 11 janv. 2020 19:15:28,512  INFO AgentDiagnosticConfig - Setting Memory Monitor Enabled false
+[Thread-0] 11 janv. 2020 19:15:28,512  INFO AgentDiagnosticConfig - Memory Monitor max stack depth set to 500000
+[Thread-0] 11 janv. 2020 19:15:28,512  INFO AgentDiagnosticConfig - Memory Monitor total objects set to 500000
+[Thread-0] 11 janv. 2020 19:15:28,512  INFO MemoryMonitor - Updated monitor class names []. Removed all tracked method objects.
+[Thread-0] 11 janv. 2020 19:15:28,512  INFO AgentDiagnosticConfig - Setting Thread Dump Enabled false
+[Thread-0] 11 janv. 2020 19:15:28,513  INFO AgentDiagnosticsService - Setting up Thread dump logger to Log4j based logger context com.singularity.diagnostics.ThreadDumpLogger
+[Thread-0] 11 janv. 2020 19:15:28,513  INFO ThreadDumpLogger - #############################################################
+[Thread-0] 11 janv. 2020 19:15:28,513  INFO ThreadDumpLogger - Agent Diagnostics Logs at Sat Jan 11 19:15:28 CET 2020
+[Thread-0] 11 janv. 2020 19:15:28,513  INFO ThreadDumpLogger - #############################################################
+[Thread-0] 11 janv. 2020 19:15:28,513  INFO AgentDiagnosticConfig - Setting Shutdown hook Enabled false
+[Thread-0] 11 janv. 2020 19:15:28,513  INFO AgentDiagnosticsService - JVM Shutdown hook is disabled
+[Thread-0] 11 janv. 2020 19:15:28,516  INFO AgentDiagnosticsService - Starting up Agent Diagnostic Logger, setting up Thread dump frequency to [300] seconds
+[Thread-0] 11 janv. 2020 19:15:28,516  INFO MemoryMonitor - BCI Rules to apply for Methods[null]
+[Thread-0] 11 janv. 2020 19:15:28,516  INFO MethodRuleApplier - Finished applying new rule set for {}
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO MemoryMonitor - Clearing all current objects from methods being tracked {}
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO MemoryMonitor - BCI Rules to apply for Classes[null]
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO ClassRuleApplier - Finished applying new rule set for []
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO MemoryMonitor - Updated object names to log []
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO MemoryMonitor - Memory Monitor started with enabled[false], interval[10]
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO MethodRuleApplier - Finished applying new rule set for {}
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO LifeCycleManager - Started service [AgentDiagnosticsService]
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO LifeCycleManager - Starting service [BCIFixer]
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO LifeCycleManager - Started service [BCIFixer]
+[Thread-0] 11 janv. 2020 19:15:28,517  INFO LifeCycleManager - Starting service [InstrumentationSdkPluginManager]
+[Thread-0] 11 janv. 2020 19:15:28,530  INFO AnnotationPropertyListenerManager - Registered NodeProperty [instrumentation-sdk-cpm-limit] to method [public void com.singularity.ee.agent.appagent.kernel.InstrumentationSdkPluginRuleApplier.setInstrumentationSdkCpmLimit(int)] in class class com.singularity.ee.agent.appagent.kernel.InstrumentationSdkPluginRuleApplier 1
+[Thread-0] 11 janv. 2020 19:15:28,531  INFO InstrumentationSdkPluginManager - Scheduling InstrumentationSdkPluginManager at interval of 30 seconds
+[Thread-0] 11 janv. 2020 19:15:28,534  INFO InstrumentationSdkPluginManager - Polling SDK directories during startup
+[Thread-0] 11 janv. 2020 19:15:28,534  INFO InstrumentationSdkPluginManager - Using instrumentation sdk directory [F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908\ver4.5.17.28908\sdk-plugins]
+[Thread-0] 11 janv. 2020 19:15:28,534  INFO LifeCycleManager - Started service [InstrumentationSdkPluginManager]
+[Thread-0] 11 janv. 2020 19:15:28,540  INFO ConfigurationChannel - Detected node meta info: [Name:ProcessID, Value:3596, Name:appdynamics.ip.addresses, Value:192.168.171.1,fe80:0:0:0:c4d4:6310:19fc:452d%eth2,fe80:0:0:0:e425:a45c:e0e:c0a0%wlan0,fe80:0:0:0:587b:d76a:4722:1b22%eth3,fe80:0:0:0:f1ec:39cc:5f3f:7201%eth4,192.168.160.1,fe80:0:0:0:3441:b55c:bb1e:3b59%eth5,192.168.1.138,fe80:0:0:0:9ae:d47b:73ca:8fb4%wlan1,192.168.99.1,fe80:0:0:0:8473:88ee:30bd:7c31%eth8,fe80:0:0:0:4ce7:4232:f857:df3d%wlan2,169.254.20.44,fe80:0:0:0:1fd:c176:7be4:142c%eth11,192.168.56.1,fe80:0:0:0:79cd:daf8:9b7:e2e8%eth12, Name:supportsDevMode, Value:true]
+[Thread-0] 11 janv. 2020 19:15:28,540  INFO ConfigurationChannel - Sending Registration request with: Application Name [KafkaPoc], Tier Name [SpringKafkaConsumer], Node Name [omarserver], Host Name [omarserver] Node Unique Local ID [omarserver], Version [Server Agent #4.5.17.28908 v4.5.17 GA compatible with 4.4.1.0 r41e827f2c8ca897888acf19f7e2a68cca452ded1 pull-requests/2830]
+[Thread-0] 11 janv. 2020 19:15:29,720  INFO ConfigurationChannel - Auto agent registration attempted: Application Name [KafkaPoc] Component Name [SpringKafkaConsumer] Node Name [omarserver]
+[Thread-0] 11 janv. 2020 19:15:29,720  INFO ConfigurationChannel - Auto agent registration SUCCEEDED!
+[Thread-0] 11 janv. 2020 19:15:29,720  INFO ConfigurationChannel - Registration information received Node ID[21515] Component ID[19323] Application ID [13581]
+[Thread-0] 11 janv. 2020 19:15:29,721  INFO ConfigurationChannel -      controllerGUID[1578637933] accountGUID[823f8e87-3e9c-4000-af90-baf09cad62a9]
+[Thread-0] 11 janv. 2020 19:15:30,214  INFO ConfigurationChannel - Controller version [4.5.16]
+[Thread-0] 11 janv. 2020 19:15:30,214  INFO ConfigurationChannel - Account edition from controller = ENTERPRISE_TRIAL
+[Thread-0] 11 janv. 2020 19:15:30,214  INFO ConfigurationChannel - New account profile [AccountProfile [dataRetentionInMinutes=-1, agentTypesSupported=[APP_AGENT, DOT_NET_APP_AGENT, DOT_NET_MACHINE_AGENT, MACHINE_AGENT, NODEJS_APP_AGENT, NODEJS_MACHINE_AGENT], automationEnabled=true, azureAutoScalingEnabled=false, systemsPanelEnabled=true, memoryMonitoringEnabled=true, startDateOfTrial=null, endDateOfTrial=null, businessTransactionLimit=50, nodeLimit=-1, transactionCorrelationEnabled=true, snapshotsEnabled=true, snapshotsWithFullCallGraphsEnabled=true, automaticSnapshotsForSlowAndErrorRequestsEnabled=true, sqlDiagnosticsEnabled=true, hardwareMonitoringEnabled=true, jvmMonitoringEnabled=true, clrMonitoringEnabled=true, endUserExperienceMonitoringEnabled=true, backendDetectionEnabled=true, errorMonitoringEnabled=true, customDashboardsEnabled=true, reportingEnabled=true, baselinesEnabled=true, advancedAnalysisEnabled=true, policiesEnabled=true, alertingEnabled=true, informationPointsEnabled=true, topCallsEnabled=true, problemsEnabled=true, informationalEventsEnabled=true, metricBrowserEnabled=true, timestamp=1578585873307, dataCollectorsEnabled=true, customExitPointsEnabled=true, restAPIEnabled=true, maxApplications=-1, maxPolicies=-1, edition=ENTERPRISE_TRIAL]]
+[Thread-0] 11 janv. 2020 19:15:30,222  INFO TransactionConfigUpdater - Updating transactions.xml to F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908\ver4.5.17.28908\conf\omarserver\transactions.xml
+[Thread-0] 11 janv. 2020 19:15:30,287  INFO TransactionMonitor - Setting Excluded BTs [EMPTY]
+[Thread-0] 11 janv. 2020 19:15:30,289  INFO ErrorMonitor - Setting ignore exceptions to :[]
+[Thread-0] 11 janv. 2020 19:15:30,289  INFO ErrorMonitor - Setting ignore message patterns to :[]
+[Thread-0] 11 janv. 2020 19:15:30,290  INFO ErrorMonitor - Setting max frames in root cause to :5
+[Thread-0] 11 janv. 2020 19:15:30,290  INFO StackTraceGenerator - Stack trace line limit set to: 200 (stack-trace-line-limit property is set to 0, but minimum value is 200.)
+[Thread-0] 11 janv. 2020 19:15:30,290  INFO ErrorMonitor - Setting stack trace line limit to :0
+[Thread-0] 11 janv. 2020 19:15:30,290  INFO LoggerRuleApplier - Applying Custom Logger Rules :: []
+[Thread-0] 11 janv. 2020 19:15:30,290  INFO ErrorMonitor - Setting excluded logger names to : []
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - JDK Exception Logger disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - JDK Message Logger disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - SLF4J Exception Logger disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - SLF4J Message Logger disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - Logback Formatted Message Logger disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - Logback Formatted Message Marker disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - Log4j Exception Logger disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - Log4j Message Logger disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,291  INFO ErrorMonitor - Capture of error and fatal logger error messages disabled set to false
+[Thread-0] 11 janv. 2020 19:15:30,292  INFO ErrorMonitor - Setting ignore logger msg patters to : []
+[Thread-0] 11 janv. 2020 19:15:30,292  INFO ExitPointRuleApplier - Applying new custom exit point definitions
+[Thread-0] 11 janv. 2020 19:15:30,296  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='HTTP', exitSubtype='HTTP'}
+[Thread-0] 11 janv. 2020 19:15:30,297  INFO AExitPointDelegate - Exit point delegate [HTTPExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,297  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='HTTP', exitSubtype='HTTP'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,297  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Kafka'}
+[Thread-0] 11 janv. 2020 19:15:30,298  INFO AExitPointDelegate - Exit point delegate [KafkaExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,298  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Kafka'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,298  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='MQ', exitSubtype='MQ'}
+[Thread-0] 11 janv. 2020 19:15:30,298  INFO AExitPointDelegate - Exit point delegate [MQExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,298  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='MQ', exitSubtype='MQ'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,298  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='THRIFT', exitSubtype='THRIFT'}
+[Thread-0] 11 janv. 2020 19:15:30,299  INFO AExitPointDelegate - Exit point delegate [ThriftExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,299  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='THRIFT', exitSubtype='THRIFT'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,299  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='JMS', exitSubtype='JMS'}
+[Thread-0] 11 janv. 2020 19:15:30,300  INFO AExitPointDelegate - Exit point delegate [JMSExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,300  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='JMS', exitSubtype='JMS'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,301  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='WEBSOCKET', exitSubtype='WEBSOCKET'}
+[Thread-0] 11 janv. 2020 19:15:30,301  INFO AExitPointDelegate - Exit point delegate [WebSocketExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,301  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='WEBSOCKET', exitSubtype='WEBSOCKET'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,301  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='RMI', exitSubtype='RMI'}
+[Thread-0] 11 janv. 2020 19:15:30,302  INFO AExitPointDelegate - Exit point delegate [RMIExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,302  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='RMI', exitSubtype='RMI'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,302  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SQS'}
+[Thread-0] 11 janv. 2020 19:15:30,303  INFO AExitPointDelegate - Exit point delegate [SQSExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,303  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SQS'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,303  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Vertx-Msg'}
+[Thread-0] 11 janv. 2020 19:15:30,303  INFO AExitPointDelegate - Exit point delegate [VertxMessageExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,303  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Vertx-Msg'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,303  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon S3'}
+[Thread-0] 11 janv. 2020 19:15:30,304  INFO AExitPointDelegate - Exit point delegate [S3ExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,304  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon S3'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,304  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SNS'}
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO AExitPointDelegate - Exit point delegate [SNSExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon SNS'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Mongo DB'}
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO AExitPointDelegate - Exit point delegate [MongoExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Mongo DB'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='JDBC', exitSubtype='JDBC'}
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO AExitPointDelegate - Exit point delegate [JDBCExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='JDBC', exitSubtype='JDBC'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Jolt'}
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO AExitPointDelegate - Exit point delegate [JoltExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Jolt'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,305  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='RABBITMQ', exitSubtype='RABBITMQ'}
+[Thread-0] 11 janv. 2020 19:15:30,307  INFO AExitPointDelegate - Exit point delegate [RabbitMqExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,307  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='RABBITMQ', exitSubtype='RABBITMQ'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,307  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon Web Services'}
+[Thread-0] 11 janv. 2020 19:15:30,307  INFO AExitPointDelegate - Exit point delegate [AWS Exit Point Delegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,307  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Amazon Web Services'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,307  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='WEB_SERVICE', exitSubtype='WEB_SERVICE'}
+[Thread-0] 11 janv. 2020 19:15:30,309  INFO AExitPointDelegate - Exit point delegate [WebServiceExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,309  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='WEB_SERVICE', exitSubtype='WEB_SERVICE'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,309  INFO BackendDiscoveryConfiguration - Exit point delegate initialized for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Cassandra CQL'}
+[Thread-0] 11 janv. 2020 19:15:30,309  INFO AExitPointDelegate - Exit point delegate [CassandraCQLExitPointDelegate] enabled = true
+[Thread-0] 11 janv. 2020 19:15:30,309  INFO BackendDiscoveryConfiguration - Exit point delegate configured for BackendDiscoveryConfigKey{exitType='CUSTOM', exitSubtype='Cassandra CQL'} with number of configurations 1
+[Thread-0] 11 janv. 2020 19:15:30,309  INFO TransactionConfigChannel - Received Service End Point Definitions >> 
+[]
+[Thread-0] 11 janv. 2020 19:15:30,311  INFO TransactionConfigChannel - Received Service Endpoint Match Config >> 
+[{
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=95031 , version=0    id = 95031    name = EJB    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:false,   entryPointType:EJB,   
+,   entryPointTypeString:EJB,   
+     attachedEntity:Type:APPLICATION, id:13581,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='EJB_NAME_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=95027 , version=0    id = 95027    name = JMS    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:JMS,   
+,   entryPointTypeString:JMS,   
+     attachedEntity:Type:APPLICATION, id:13581,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='DESTINATION_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=95028 , version=0    id = 95028    name = POJO    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:POJO,   
+,   entryPointTypeString:POJO,   
+     attachedEntity:Type:APPLICATION, id:13581,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='FULLY_QUALIFIED_CLASS_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=95030 , version=0    id = 95030    name = SERVLET    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:SERVLET,   
+,   entryPointTypeString:SERVLET,   
+     attachedEntity:Type:APPLICATION, id:13581,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='URI', properties=[Name:uri-length, Value:first-n-segments, Name:segment-length, Value:2]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=95026 , version=0    id = 95026    name = SPRING_BEAN    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:false,   entryPointType:SPRING_BEAN,   
+,   entryPointTypeString:SPRING_BEAN,   
+     attachedEntity:Type:APPLICATION, id:13581,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='BEAN_ID_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=95029 , version=0    id = 95029    name = STRUTS_ACTION    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:STRUTS_ACTION,   
+,   entryPointTypeString:STRUTS_ACTION,   
+     attachedEntity:Type:APPLICATION, id:13581,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='ACTION_NAME_AND_METHOD_NAME', properties=[]} }
+}
+, {
+  AAppCompConfigObject :{ AConfigObject ( AConfigObject ( id=95032 , version=0    id = 95032    name = WEB_SERVICE    nameUnique = true     )    applicationComponentId = 0     ) }
+     ServiceEndpointMatchConfig :{ enabled:true,   entryPointType:WEB_SERVICE,   
+,   entryPointTypeString:WEB_SERVICE,   
+     attachedEntity:Type:APPLICATION, id:13581,   agentType:(agentType)
+     discoveryConfig:DiscoveryNamingConfig{namingSchemeType='SERVICE_NAME_AND_OPERATION_NAME', properties=[]} }
+}
+]
+[Thread-0] 11 janv. 2020 19:15:30,311  INFO BTOverflowCounter - Transactions cleanup detected. Resetting overflow transaction timer.
+[Thread-0] 11 janv. 2020 19:15:30,311  INFO TransactionMonitor - Changing max metric length to: 5000
+[Thread-0] 11 janv. 2020 19:15:30,312  INFO CrossAppMetricPropertyListener - Setting value of Controller support for service monitoring to true
+[Thread-0] 11 janv. 2020 19:15:30,315  INFO EUMConfig - EUM Enabled: false
+[Thread-0] 11 janv. 2020 19:15:30,315  INFO EUMConfig - EUM injected JS code template: ;/* Version 396a4a3598e4fdd54b8073a93c951462 v:4.5.15.2691, c:04aa47ee78e61f70d1...
+[Thread-0] 11 janv. 2020 19:15:30,315  INFO EUMConfig - EUM beacon URL: pdx-col.eum-appdynamics.com
+[Thread-0] 11 janv. 2020 19:15:30,315  INFO EUMConfig - EUM async JS file URL: cdn.appdynamics.com
+[Thread-0] 11 janv. 2020 19:15:30,315  INFO EUMConfig - Global account name: cloud202001090538366_823f8e87-3e9c-4000-af90-baf09cad62a9
+[Thread-0] 11 janv. 2020 19:15:30,315  INFO EUMConfig - Disabling automatic parsing and injection
+[Thread-0] 11 janv. 2020 19:15:30,315  INFO EUMConfig - Disabling manual injection rules
+[Thread-0] 11 janv. 2020 19:15:30,316  INFO CallGraphFilteringConfig - Setting Callgraph package excludes [java., javax., com.sun., sun., org., com.bea., com.weblogic., weblogic., com.ibm., com.mysql., com.oracle., oracle., com.microsoft.sqlserver., com.opensymphony., net.sf., jrockit., kodo., com.pointbase., persistence.antlr., com.informix., com.sybase.jdbc2., com.sybase.jdbc3., com.sybase.jdbc4., com.mongodb.connection.]
+[Thread-0] 11 janv. 2020 19:15:30,316  INFO CallGraphFilteringConfig - Setting Callgraph package always show [com.sun.jersey., org.apache.openejb., org.apache.cassandra., org.apache.kafka., org.apache.http., org.asynchttpclient., org.apache.camel.example., org.apache.camel.component.seda., org.mule.processor., org.jboss.soa.esb.client., org.springframework.integration., com.ibm.mq., org.apache.activemq., com.ibm.bpm., com.ibm.bpe., com.ibm.ws.]
+[Thread-0] 11 janv. 2020 19:15:30,316  INFO AgentConfigWatchdog - Received properties from controller, going to refresh.
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO AnnotationPropertyListenerManager - Propagating max-jdbc-calls-per-snapshot value 500
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO AnnotationPropertyListenerManager - Set property max-jdbc-calls-per-snapshot=500 on SqlCacheHolder
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO AnnotationPropertyListenerManager - Propagating max-jdbc-calls-per-snapshot value 500
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO AnnotationPropertyListenerManager - Set property max-jdbc-calls-per-snapshot=500 on TransactionSnapshotService
+[Thread-0] 11 janv. 2020 19:15:30,317  WARN AgentConfigWatchdog - SnapshotService specific listener will be ignored for max-jdbc-calls-per-snapshot
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO AnnotationPropertyListenerManager - Propagating slow-request-deviation value 200
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO BTThresholdCalculator - slow delta changed from 200 to 200
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO AnnotationPropertyListenerManager - Set property slow-request-deviation=200 on BTThresholdCalculator
+[Thread-0] 11 janv. 2020 19:15:30,317  WARN AgentConfigWatchdog - TransactionMonitoringService specific listener will be ignored for slow-request-deviation
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO AnnotationPropertyListenerManager - Propagating max-business-transactions value 50
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO BusinessTransactionRegistry - Max transactions set to 50
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO BusinessTransactionRegistry - Agent will identify a maximum of [50] business transactions.
+[Thread-0] 11 janv. 2020 19:15:30,317  INFO AnnotationPropertyListenerManager - Set property max-business-transactions=50 on BusinessTransactionRegistry
+[Thread-0] 11 janv. 2020 19:15:30,318  WARN AgentConfigWatchdog - TransactionMonitoringService specific listener will be ignored for max-business-transactions
+[Thread-0] 11 janv. 2020 19:15:30,318  INFO AnnotationPropertyListenerManager - Propagating min-load-per-minute-diagnostic-session-trigger value 10
+[Thread-0] 11 janv. 2020 19:15:30,318  INFO AnnotationPropertyListenerManager - Set property min-load-per-minute-diagnostic-session-trigger=10 on DiagnosticSessionSnapshotPolicy
+[Thread-0] 11 janv. 2020 19:15:30,318  WARN AgentConfigWatchdog - TransactionMonitoringService specific listener will be ignored for min-load-per-minute-diagnostic-session-trigger
+[Thread-0] 11 janv. 2020 19:15:30,318  INFO AnnotationPropertyListenerManager - Propagating min-duration-for-jdbc-call-in-ms value 10
+[Thread-0] 11 janv. 2020 19:15:30,318  INFO AnnotationPropertyListenerManager - Set property min-duration-for-jdbc-call-in-ms=10 on TopBackendsProcessor
+[Thread-0] 11 janv. 2020 19:15:30,318  WARN AgentConfigWatchdog - SnapshotService specific listener will be ignored for min-duration-for-jdbc-call-in-ms
+[Thread-0] 11 janv. 2020 19:15:30,318  INFO AgentConfigWatchdog - ************ Started applying service properties from controller ***************
+[Thread-0] 11 janv. 2020 19:15:30,319  INFO TransactionMonitor - Applying 'enable-soap-header-correlation', 'false'
+[Thread-0] 11 janv. 2020 19:15:30,319  INFO JaxRsConfiguration - Property rest-num-segments, Value 2
+[Thread-0] 11 janv. 2020 19:15:30,319  INFO NewTransactionWatchman - Property api-transaction-timeout-in-seconds, Value 300
+[Thread-0] 11 janv. 2020 19:15:30,319  INFO ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-correlation-for], value[]
+[Thread-0] 11 janv. 2020 19:15:30,319  INFO TransactionMonitor - Applying 'slow-request-threshold', '500'
+[Thread-0] 11 janv. 2020 19:15:30,319  INFO SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 500 ms, at interval 500 ms.
+[Thread-0] 11 janv. 2020 19:15:30,319  INFO TransactionMonitor - Applying 'downstream-tx-detection-enabled', 'false'
+[Thread-0] 11 janv. 2020 19:15:30,319  INFO JDBCConfiguration - Applying property capture-raw-sql, val false
+[Thread-0] 11 janv. 2020 19:15:30,320  INFO TransactionMonitor - Applying 'slow-request-monitor-interval', '100'
+[Thread-0] 11 janv. 2020 19:15:30,320  INFO SlowAndStallRequestMonitor - Slow Request checker setup to check for requests slower than 100 ms, at interval 100 ms.
+[Thread-0] 11 janv. 2020 19:15:30,320  INFO JaxRsConfiguration - Property rest-uri-segment-scheme, Value first-n-segments
+[Thread-0] 11 janv. 2020 19:15:30,320  INFO NewTransactionWatchman - Property api-thread-activity-timeout-in-seconds, Value 300
+[Thread-0] 11 janv. 2020 19:15:30,320  INFO TransactionMonitor - Applying 'enable-transaction-correlation', 'true'
+[Thread-0] 11 janv. 2020 19:15:30,320  INFO ExitPointRuleApplier - ExitPointRuleApplier property disable-custom-exit-points-for value []
+[Thread-0] 11 janv. 2020 19:15:30,320  INFO JaxRsConfiguration - Property rest-transaction-naming, Value {class-annotation}/{method-annotation}.{http-method}
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO LatencyMonitoringConfiguration - End to End latency montioring threshold set to [0] ms
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO ExitCallMonitoringConfiguration - Received property update for [disable-exit-call-metrics-for], value[]
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO ServletRuleApplier - Applying property capture-error-urls, true
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO TransactionMonitor - Applying 'enable-default-http-error-code-reporter', 'true'
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO CallGraphConfigHandler - Call Graph Config Changed  show-packages  Value -
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO CallGraphFilteringConfig - Setting Callgraph package LOCAL always show []
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO TransactionSnapshotService - Reset max-jdbc-calls-per-callgraph with new value 100
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO CallGraphConfigHandler - Call Graph Config Changed  dont-show-packages  Value -
+[Thread-0] 11 janv. 2020 19:15:30,321  INFO CallGraphFilteringConfig - Setting Callgraph package LOCAL excludes []
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO TransactionSnapshotService - Reset adaptive-callgraph-granularity with new value false
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO ApplicationStartupPolicy - Setting 'enable-startup-snapshot-policy' with value 'false'
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO CallGraphConfigHandler - Call Graph Config Changed  callgraph-granularity-in-ms  Value -0
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO LeakManager - Property changed leak-diagnostic-interval-in-minutes, Val [30]
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO LeakManager - Changing leak diagnostic capture interval to 30
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO BCIEngineService - BCIEngine service property enable-xml-bci-rules changed, new value true
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO BCIEngineService - BCIEngine service property enable-json-bci-rules changed, new value true
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO AgentConfigWatchdog - ------------ Finished applying service properties from controller ---------------
+
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO AgentConfigWatchdog - ****************************** start update local cache ******************************-
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO AgentConfigWatchdog - update property cache [enable-soap-header-correlation] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO AgentConfigWatchdog - update property cache [rest-num-segments] set to [AgentConfigPropertyValue{value='2', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO AgentConfigWatchdog - update property cache [log-request-payload] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,322  INFO AgentConfigWatchdog - update property cache [api-transaction-timeout-in-seconds] set to [AgentConfigPropertyValue{value='300', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [disable-exit-call-correlation-for] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [callgraph-granularity-in-ms] set to [AgentConfigPropertyValue{value='0', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [collection-capture-period-in-minutes] set to [AgentConfigPropertyValue{value='30', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [jdbc-statements] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [slow-request-threshold] set to [AgentConfigPropertyValue{value='500', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [downstream-tx-detection-enabled] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [enable-xml-bci-rules] set to [AgentConfigPropertyValue{value='true', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [capture-raw-sql] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [find-entry-points] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [minimum-age-for-evaluation-in-minutes] set to [AgentConfigPropertyValue{value='30', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [dont-show-packages] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [slow-request-monitor-interval] set to [AgentConfigPropertyValue{value='100', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [enable-startup-snapshot-policy] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [collect-user-data-sync] set to [AgentConfigPropertyValue{value='true', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [show-packages] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [enable-collection-monitoring] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [enable-json-bci-rules] set to [AgentConfigPropertyValue{value='true', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [on-demand-snapshots] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,323  INFO AgentConfigWatchdog - update property cache [jdbc-prepared-statements] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [rest-uri-segment-scheme] set to [AgentConfigPropertyValue{value='first-n-segments', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [api-thread-activity-timeout-in-seconds] set to [AgentConfigPropertyValue{value='300', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [minimum-size-for-evaluation-in-mb] set to [AgentConfigPropertyValue{value='5', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [leak-diagnostic-interval-in-minutes] set to [AgentConfigPropertyValue{value='30', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [enable-transaction-correlation] set to [AgentConfigPropertyValue{value='true', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [jdbc-connections] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [disable-custom-exit-points-for] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [max-jdbc-calls-per-callgraph] set to [AgentConfigPropertyValue{value='100', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [jdbc-callable-statements] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [rest-transaction-naming] set to [AgentConfigPropertyValue{value='{class-annotation}/{method-annotation}.{http-method}', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [async-transaction-demarcator] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [adaptive-callgraph-granularity] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [end-to-end-message-latency-threshold-millis] set to [AgentConfigPropertyValue{value='0', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [disable-exit-call-metrics-for] set to [AgentConfigPropertyValue{value='', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [enable-object-size-monitoring] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [capture-error-urls] set to [AgentConfigPropertyValue{value='true', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [enable-default-http-error-code-reporter] set to [AgentConfigPropertyValue{value='true', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - update property cache [enable-instance-monitoring] set to [AgentConfigPropertyValue{value='false', origin=CONTROLLER, mutable=true}]
+[Thread-0] 11 janv. 2020 19:15:30,324  INFO AgentConfigWatchdog - ----------------------------- finish update local cache -------------------------------
+[Thread-0] 11 janv. 2020 19:15:30,326  INFO ConfigurationChannel - Initialized app agent with latest configuration from controller
+[Thread-0] 11 janv. 2020 19:15:30,502  INFO XMLConfigManager - Agent will poll for new configuration from controller every [60] seconds
+[Thread-0] 11 janv. 2020 19:15:30,503  INFO ServerMBeanManager - Initialized MBean Finder schedulers with delay=120 secs
+[Thread-0] 11 janv. 2020 19:15:30,503  INFO Java17AgentService. - Starting the GC Visibility Service.
+[Thread-0] 11 janv. 2020 19:15:30,506  INFO GCVisibilityInitializer - Registering listeners for GC events 
+[Thread-0] 11 janv. 2020 19:15:30,513  INFO BCIEngineService - BCIEngineService has created BCIEngineInfoProvider
+[Thread-0] 11 janv. 2020 19:15:30,525  INFO MemoryUsageInfo - MemoryMXBean available for Metaspace with max -1
+[Thread-0] 11 janv. 2020 19:15:30,527  INFO TransactionMonitoringService - OSGi configuration rule applier has been activated
+[Thread-0] 11 janv. 2020 19:15:30,528  INFO TransactionMonitoringService - Reading transaction config file from the controller.
+[Thread-0] 11 janv. 2020 19:15:30,533  INFO TransactionMonitoringService - Parsed Transaction definitions successfully from [F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908\ver4.5.17.28908\conf\omarserver\transactions.xml]
+[Thread-0] 11 janv. 2020 19:15:30,542  INFO AnnotationPropertyListenerManager - Registered NodeProperty [spring-batch-enabled] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.spring.batch.SpringBatchConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.spring.batch.SpringBatchConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:30,543  INFO SpringBatchRuleApplier - Applying Spring Batch Rules
+[Thread-0] 11 janv. 2020 19:15:30,567  INFO SpringIntegrationRuleApplier - Applying Spring Integration Rules
+[Thread-0] 11 janv. 2020 19:15:30,570  INFO SpringIntegrationRuleApplier - spring-integration-receive-marker-classes = null
+[Thread-0] 11 janv. 2020 19:15:30,570  INFO SpringIntegrationRuleApplier - Apply Spring Integration Receive Enclosing Marker Rules
+[Thread-0] 11 janv. 2020 19:15:30,575  INFO SpringBatchRuleApplier - Applying rules: Spring Batch Rules
+[Thread-0] 11 janv. 2020 19:15:30,576  INFO POJORuleApplier - POJO Monitoring is Enabled, applying rule sets. # of rules [4]
+[Thread-0] 11 janv. 2020 19:15:30,576  INFO POJORuleApplier - [CustomMatchPointDefinition{businessTransactionName='KafkaSender', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.apache.kafka.clients.producer.KafkaProducer', type=EQUALS, pattern='org.apache.kafka.clients.producer.KafkaProducer'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='send', type=EQUALS, pattern='send'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='null', splitConfig=[NULL], hashCode=1275375763}, entryPointType=null, entryPointTypeString=null, background=false, enabled=false, attachedEntity=null, agentType=null, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='GWT', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='com.google.gwt.user.server.rpc.RPC', type=EQUALS, pattern='com.google.gwt.user.server.rpc.RPC'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='invokeAndEncodeResponse', type=EQUALS, pattern='invokeAndEncodeResponse'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='GWT', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@1bfef486],[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@8b4eb664],, hashCode=null}, entryPointType=POJO, entryPointTypeString=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='CometD', matchPointRule=POJOMatchRule{matchClassType=MATCHES_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='org.cometd.server.BayeuxServerImpl', type=EQUALS, pattern='org.cometd.server.BayeuxServerImpl'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doPublish', type=EQUALS, pattern='doPublish'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='CometD', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@3c80c545],, hashCode=null}, entryPointType=POJO, entryPointTypeString=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}, CustomMatchPointDefinition{businessTransactionName='Portlet', matchPointRule=POJOMatchRule{matchClassType=INHERITS_FROM_CLASS, classMatch=SM{ex_type=EQUALS, ex_pattern='javax.portlet.GenericPortlet', type=EQUALS, pattern='javax.portlet.GenericPortlet'}, methodMatch=[SM{ex_type=EQUALS, ex_pattern='doView', type=EQUALS, pattern='doView'}],, splitOperationType=0, splitOperation='null', excludes=null, backgroundTask=false, displayName='Portlet', splitConfig=[com.singularity.ee.controller.api.dto.transactionmonitor.transactiondefinition.pojo.SplitConfig@77847bee],, hashCode=null}, entryPointType=POJO, entryPointTypeString=POJO, background=false, enabled=false, attachedEntity=null, agentType=APP_AGENT, matchRuleString='null'}]
+[Thread-0] 11 janv. 2020 19:15:30,583  INFO JMSEntryPointDelegate - JMS monitoring is enabled
+[Thread-0] 11 janv. 2020 19:15:30,586  INFO JMSEntryPointDelegate - Adding MDB Annotation onMessage rule 
+[Thread-0] 11 janv. 2020 19:15:30,586  INFO JMSEntryPointDelegate - Adding Spring Integration MDB rule 
+[Thread-0] 11 janv. 2020 19:15:30,663  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-async2-art] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.async2.AsyncConfiguration.setEnableAsync20ART(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.async2.AsyncConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:30,677  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-micronaut] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.micronaut.MicronautHttpRuleApplier.setEnabled(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.micronaut.MicronautHttpRuleApplier 1
+[Thread-0] 11 janv. 2020 19:15:30,694  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-inputstream-multiple-exit-call] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.http.correlation.HTTPGetInputStreamConfiguration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.http.correlation.HTTPGetInputStreamConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:30,777  INFO AnnotationPropertyListenerManager - Registered NodeProperty [netty-v4-enabled] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.netty.v4.NettyV4Configuration.changeProperty(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.netty.v4.NettyV4Configuration 1
+[Thread-0] 11 janv. 2020 19:15:30,804  INFO ServletEntryPointDelegate - Servlet Monitoring enabled=true
+[Thread-0] 11 janv. 2020 19:15:30,804  INFO ServletRuleApplier - Apply servlet entry point monitoring = true, apply service end point config = true
+[Thread-0] 11 janv. 2020 19:15:30,808  INFO ServletRuleApplier - Adding SPRING MVC dispatcher rules
+[Thread-0] 11 janv. 2020 19:15:30,808  INFO ServletRuleApplier - Adding SPRING MVC dispatcher super class rules
+[Thread-0] 11 janv. 2020 19:15:30,809  INFO ServletRuleApplier - Applying Mule HTTP Receiver rules
+[Thread-0] 11 janv. 2020 19:15:30,813  INFO AnnotationPropertyListenerManager - Registered NodeProperty [osb-enable-webservice-entry] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.esb.osb.OSBWebServiceEntryConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.esb.osb.OSBWebServiceEntryConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:30,817  INFO ServletRuleApplier - Applying URI Capture rules
+[Thread-0] 11 janv. 2020 19:15:30,817  INFO ServletRuleApplier - Capturing HttpServletResponse.setStatus() calls
+[Thread-0] 11 janv. 2020 19:15:30,817  INFO ServletRuleApplier - Applying rule to capture Play related error codes
+[Thread-0] 11 janv. 2020 19:15:30,841  INFO scalaSprayRuleApplier - Applying rules: Spray.io rules
+[Thread-0] 11 janv. 2020 19:15:30,841  INFO scalaAkkaHttpRuleApplier - Applying rules: Akka Http rules
+[Thread-0] 11 janv. 2020 19:15:30,844  INFO WebMethodsRuleApplier - Applying Web Methods HTTP Receiver rules
+[Thread-0] 11 janv. 2020 19:15:30,844  INFO ServletRuleApplier - Applying rules: Jolt Exit Point Rules
+[Thread-0] 11 janv. 2020 19:15:30,844  INFO ServletRuleApplier - Applying rules: WebMethods Message Broker rules
+[Thread-0] 11 janv. 2020 19:15:30,844  INFO NettyV3RuleApplier - Applying rules: Netty v3 HTTP rules
+[Thread-0] 11 janv. 2020 19:15:30,844  INFO MicronautHttpRuleApplier - Applying rules: Micronaut HTTP Rules
+[Thread-0] 11 janv. 2020 19:15:30,845  INFO VertxHttpRuleApplier - Applying rules: Vert.x HTTP Rules
+[Thread-0] 11 janv. 2020 19:15:30,846  INFO MuleHttpRuleApplier - Applying rules: Mule Ver-3.8 and 4.x HTTP Rules
+[Thread-0] 11 janv. 2020 19:15:30,846  INFO TIBCOTibcoBWAsyncCorrelationRuleApplier - Applying rules: Tibco bw JMS marker and activity inprocess correlation rules
+[Thread-0] 11 janv. 2020 19:15:30,847  INFO IbmBpmRuleApplier - Applying rules: IBM-BPM Rules
+[Thread-0] 11 janv. 2020 19:15:30,847  INFO AxonRuleApplier - Applying rules: Axon Framework Entry Rules
+[Thread-0] 11 janv. 2020 19:15:30,847  INFO Servlet3RuleApplier - Applying rules: Servlet 3.0 Rules
+[Thread-0] 11 janv. 2020 19:15:30,848  INFO ReactorNettyRuleApplier - Applying rules: Reactor Netty Rules
+[Thread-0] 11 janv. 2020 19:15:30,848  INFO UndertowRuleApplier - Applying rules: Undertow Rules
+[Thread-0] 11 janv. 2020 19:15:30,848  INFO WebObjectsRuleApplier - Applying WebObject rules
+[Thread-0] 11 janv. 2020 19:15:30,849  INFO EJBEntryPointDelegate - Applying RMI Rules
+[Thread-0] 11 janv. 2020 19:15:30,849  INFO RMIRuleApplier - Applying JBoss Remoting Rules
+[Thread-0] 11 janv. 2020 19:15:30,855  INFO RMIRuleApplier - Applying Websphere RMI-IIOP Rules
+[Thread-0] 11 janv. 2020 19:15:30,901  INFO NingAsyncHttpRuleApplier - Applying rules: Ning async http client rules
+[Thread-0] 11 janv. 2020 19:15:30,910  INFO jrubyJRubyRuleApplier - Applying rules: JRuby Httparty Rules
+[Thread-0] 11 janv. 2020 19:15:30,913  INFO AsyncJerseyClientRuleApplier - Applying rules: JAX-RS RX Rules
+[Thread-0] 11 janv. 2020 19:15:30,915  INFO HTTPExitPointDelegate - Applying rules: Netty Async Channel
+[Thread-0] 11 janv. 2020 19:15:30,918  INFO HTTPExitPointDelegate - Applying rules: Ribbon Async (Constructor)
+[Thread-0] 11 janv. 2020 19:15:30,923  INFO HTTPExitPointDelegate - Applying rules: Jetty v8
+[Thread-0] 11 janv. 2020 19:15:30,923  INFO HTTPExitPointDelegate - Applying rules: Jetty v9
+[Thread-0] 11 janv. 2020 19:15:30,928  INFO HTTPExitPointDelegate - Applying rules: WebClient Spring 5.0
+[Thread-0] 11 janv. 2020 19:15:30,928  INFO HTTPExitPointDelegate - Applying rules: WebClient Spring 5.1
+[Thread-0] 11 janv. 2020 19:15:30,933  INFO MQExitPointDelegate - MQ put/get rules registered
+[Thread-0] 11 janv. 2020 19:15:30,989  INFO JDBCRulesApplier - Applying rules: JDCB Common
+[Thread-0] 11 janv. 2020 19:15:31,006  INFO JDBCRulesApplier - Applying rules: JDBC mutable
+[Thread-0] 11 janv. 2020 19:15:31,013  INFO JMSExitPointDelegate - Applying Amazon SQS Rules
+[Thread-0] 11 janv. 2020 19:15:31,016  INFO sqsSQSRuleApplier - Applying rules: Amazon SQS Rules
+[Thread-0] 11 janv. 2020 19:15:31,016  INFO AWSExitPointDelegate - Applying DynamoDB Rules
+[Thread-0] 11 janv. 2020 19:15:31,018  INFO AnnotationPropertyListenerManager - Registered NodeProperty [instrumented-aws-services] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.amazon.generic.AWSGenericRuleApplier.updateAmazonConfig(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.amazon.generic.AWSGenericRuleApplier 1
+[Thread-0] 11 janv. 2020 19:15:31,020  INFO s3S3ExitPointDelegate - Applying Amazon S3 Rules
+[Thread-0] 11 janv. 2020 19:15:31,022  INFO s3S3RuleApplier - Applying rules: Amazon S3 Rules
+[Thread-0] 11 janv. 2020 19:15:31,024  INFO VertxMessageExitPointDelegate - Applying Vertx-Message Rules
+[Thread-0] 11 janv. 2020 19:15:31,024  INFO VertxMessageRuleApplier - Applying rules: Vert.x Message Rules
+[Thread-0] 11 janv. 2020 19:15:31,024  INFO snsSNSExitPointDelegate - Applying Amazon SNS Rules
+[Thread-0] 11 janv. 2020 19:15:31,025  INFO snsSNSRuleApplier - Applying rules: Amazon SNS Rules
+[Thread-0] 11 janv. 2020 19:15:31,025  INFO kafkaKafkaExitPointDelegate - Applying Apache Kafka Rules
+[Thread-0] 11 janv. 2020 19:15:31,031  INFO kafkaKafkaRuleApplier - Applying rules: Apache Kafka Rules
+[Thread-0] 11 janv. 2020 19:15:31,031  INFO AxonExitPointDelegate - Applying Axon Framework Rules
+[Thread-0] 11 janv. 2020 19:15:31,031  INFO AxonRuleApplier - Applying rules: Axon Framework Exit Rules
+[Thread-0] 11 janv. 2020 19:15:31,032  INFO MongoExitPointDelegate - Applying MongoDB rules
+[Thread-0] 11 janv. 2020 19:15:31,038  INFO MongoDBRuleApplier - Applying rules: MongoDB Rules
+[Thread-0] 11 janv. 2020 19:15:31,051  INFO CustomMatchRuleParser - Applying custom interceptors from F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908\ver4.5.17.28908\conf\custom-interceptors.xml
+[Thread-0] 11 janv. 2020 19:15:31,053  INFO DynamicRulesManager - Reading current dynamic rules from [F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908\ver4.5.17.28908\conf\omarserver\bcirules.xml]
+[Thread-0] 11 janv. 2020 19:15:31,055  INFO ServletRuleApplier - Adding servlet rule for org.springframework.web.servlet.FrameworkServlet
+[Thread-0] 11 janv. 2020 19:15:31,060  INFO TransactionConfigChannel - Applying out of the box exit point rules
+[Thread-0] 11 janv. 2020 19:15:31,068  INFO ExitPointRuleApplier - Adding rules for exit point type [[SAP, Mail, LDAP, DangaMemcache, Coherence, EHCache, CUSTOM, REDIS, MongoDB, Memcache]]
+[Thread-0] 11 janv. 2020 19:15:31,068  INFO TransactionMonitoringService - Initializing thread delegate and resetting transaction delegate if needed. The current value of [use-new-async-correlation]=true
+[Thread-0] 11 janv. 2020 19:15:31,073  INFO AnnotationPropertyListenerManager - Registered NodeProperty [apply-additional-reactive-rules] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier.applyAdditionalReactiveRules(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier 1
+[Thread-0] 11 janv. 2020 19:15:31,074  INFO AnnotationPropertyListenerManager - Registered NodeProperty [apply-reactive-rules] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier.applyReactiveRules(boolean)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier 1
+[Thread-0] 11 janv. 2020 19:15:31,074  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-async-transformed-classes] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier.setMaxAsyncTransformedClasses(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier 1
+[Thread-0] 11 janv. 2020 19:15:31,074  INFO AnnotationPropertyListenerManager - Registered NodeProperty [max-async-transformed-classes-by-package] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier.setMaxAsyncTransformedClassesByPackage(int)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.async.correlation.AsyncCorrelationRuleApplier 1
+[Thread-0] 11 janv. 2020 19:15:31,074  INFO AsyncCorrelationRuleApplier - Updating Node Property max-async-transformed-classes to value 100
+[Thread-0] 11 janv. 2020 19:15:31,074  INFO AsyncCorrelationRuleApplier - TMS.Configure >> [maxAsyncTransformedClasses] to 100
+[Thread-0] 11 janv. 2020 19:15:31,074  INFO AsyncCorrelationRuleApplier - Updating Node Property max-async-transformed-classes-by-package to value 50
+[Thread-0] 11 janv. 2020 19:15:31,074  INFO AsyncCorrelationRuleApplier - TMS.Configure >> [maxAsyncTransformedClassesByPackage] to 50
+[Thread-0] 11 janv. 2020 19:15:31,074  INFO AsyncCorrelationRuleApplier - Constructor instrumentation will be used to capture async tasks
+[Thread-0] 11 janv. 2020 19:15:31,078  INFO AsyncRuleHelper - retention-config is null
+[Thread-0] 11 janv. 2020 19:15:31,078  INFO AsyncRuleHelper - retention-config is null
+[Thread-0] 11 janv. 2020 19:15:31,078  INFO AsyncRuleHelper - retention-config is null
+[Thread-0] 11 janv. 2020 19:15:31,078  INFO AsyncRuleHelper - retention-config is null
+[Thread-0] 11 janv. 2020 19:15:31,083  INFO AnnotationPropertyListenerManager - Registered NodeProperty [reactive-skip-classes] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.reactor.ReactiveStreamsConfiguration.changeProperty(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.reactor.ReactiveStreamsConfiguration 1
+[Thread-0] 11 janv. 2020 19:15:31,084  INFO AsyncCorrelationRuleApplier - Applying rules: Reactive Streams rules
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO TransactionMonitoringService - Initialized [NEW] threads delegate
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: NewImplementationTransformationRule Runtime [super class=SM{ex_type=EQUALS, ex_pattern='java.lang.Thread', type=EQUALS, pattern='java.lang.Thread'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: NewImplementationTransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='call', type=EQUALS, pattern='call'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: NewImplementationTransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.util.concurrent.Callable', type=EQUALS, pattern='java.util.concurrent.Callable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='call', type=EQUALS, pattern='call'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='doRun', type=EQUALS, pattern='doRun'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: NewImplementationTransformationRule Runtime [ className=SM{ex_type=EQUALS, ex_pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable', type=EQUALS, pattern='org.jboss.netty.handler.execution.ChannelUpstreamEventRunnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='doRun', type=EQUALS, pattern='doRun'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] 
+[Thread-0] 11 janv. 2020 19:15:31,085  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: TransformationRule Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='k', type=EQUALS, pattern='k'}] 
+[Thread-0] 11 janv. 2020 19:15:31,086  INFO AsyncCorrelationRuleApplier - Adding thread correlation rule: NewImplementationTransformationRule Runtime [ className=SM{ex_type=EQUALS, ex_pattern='com.tibco.pe.core.Job', type=EQUALS, pattern='com.tibco.pe.core.Job'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='k', type=EQUALS, pattern='k'}] 
+[Thread-0] 11 janv. 2020 19:15:31,489  INFO AClassTransformation - Re-transforming class [com.lmax.disruptor.BatchEventProcessor] because its classname matches an active rule [TransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] ]
+[Thread-0] 11 janv. 2020 19:15:31,490  INFO AClassTransformation - Re-transforming class [com.lmax.disruptor.BatchEventProcessor] because its classname matches an active rule [TransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] ]
+[Thread-0] 11 janv. 2020 19:15:31,490  INFO AClassTransformation - Re-transforming class [com.lmax.disruptor.BatchEventProcessor] because its classname matches an active rule [NewImplementationTransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] ]
+[Thread-0] 11 janv. 2020 19:15:31,515  INFO AClassTransformation - Re-transforming class [com.lmax.disruptor.EventProcessor] because its classname matches an active rule [TransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='<init>', type=EQUALS, pattern='<init>'}] ]
+[Thread-0] 11 janv. 2020 19:15:31,515  INFO AClassTransformation - Re-transforming class [com.lmax.disruptor.EventProcessor] because its classname matches an active rule [TransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] ]
+[Thread-0] 11 janv. 2020 19:15:31,515  INFO AClassTransformation - Re-transforming class [com.lmax.disruptor.EventProcessor] because its classname matches an active rule [NewImplementationTransformationRule Runtime [interface=SM{ex_type=EQUALS, ex_pattern='java.lang.Runnable', type=EQUALS, pattern='java.lang.Runnable'}],  Method [ method=SM{ex_type=EQUALS, ex_pattern='run', type=EQUALS, pattern='run'}] ]
+[Thread-0] 11 janv. 2020 19:15:32,565  INFO ReTransformTask - Adding [2] classes for re-transformation 
+[Thread-0] 11 janv. 2020 19:15:32,566  INFO AnnotationPropertyListenerManager - Registered NodeProperty [enable-async-correlation-for] to method [public void com.singularity.ee.agent.appagent.services.transactionmonitor.common.activity.CustomActivityRuleApplier.setEnableAsync(java.lang.String)] in class class com.singularity.ee.agent.appagent.services.transactionmonitor.common.activity.CustomActivityRuleApplier 1
+[Thread-0] 11 janv. 2020 19:15:32,577  INFO BCIFixer - Scheduling BCIFixer at [300000] ms intervals.
+[Thread-0] 11 janv. 2020 19:15:32,577  INFO BCIEngineService - Pinging to retransform classes by worker
+[Thread-0] 11 janv. 2020 19:15:32,577  INFO ClassTransformation - Re-transforming batch of 2 classes
+[AD Thread Pool-Global1] 11 janv. 2020 19:15:32,582  INFO TransformationManager - Class transformations will take place in a background thread
+[Thread-0] 11 janv. 2020 19:15:32,909  INFO JavaAgent - JVM Process Persistence File <pid = 3596    nodeDirectory = F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908    appName = KafkaPoc    tierName = SpringKafkaConsumer    nodeName = omarserver    homeDirectory = F:\dev_workspace\code_workspace\spring-kafka-appdynamics    machineId = 8305    uniqueHostId = omarserver    controllerHost = cloud202001090538366.saas.appdynamics.com    controllerPort = 80    accountKey = f82668185f593f918a2fae5ab6d6cac03734fbfa    versionDirectory = F:\dev_workspace\code_workspace\spring-kafka-appdynamics\spring-kafka-consumer\AppServerAgent-4.5.17.28908\ver4.5.17.28908> was written
+[Thread-0] 11 janv. 2020 19:15:32,914  INFO JavaAgent - Started AppDynamics Java Agent Successfully.

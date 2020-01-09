@@ -1,0 +1,6 @@
+<multiple-inheritance-rules>
+    <instrumentation-properties>
+        <property name="dynamic-servlet-classes" value="org.springframework.web.servlet.FrameworkServlet"/>
+        <property name="bci-fixer-other-classes" value="org.apache.kafka.common.utils.LogContext$LocationAwareKafkaLogger,com.intellij.rt.execution.application.AppMainV2$1,java.util.concurrent.ForkJoinTask,java.util.concurrent.ThreadPoolExecutor$Worker,java.util.concurrent.Executors$RunnableAdapter"/>
+    </instrumentation-properties>
+</multiple-inheritance-rules>
